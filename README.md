@@ -1,5 +1,5 @@
 # OSM-Meta-util
-**Modified for using with the daily .osc diff file provided by GeoFabrik for Lesotho**
+**Modified for using with the daily .osc diff file provided by GeoFabrik of Lesotho to track users and their commits to the [#MapLesotho](https://maplesotho.wordpress.com/) project**
 
 A tool to download and process OSM Metadata. This data contains the most recent annotations around a commit to OSM. Specifically, `commit text`, `username`, `bounding box`, `creation date` and `number of edits`. The data is downloaded from the [planet](http://planet.osm.org/replication/changesets/) repository, which contains minutely changesets to OSM.
 

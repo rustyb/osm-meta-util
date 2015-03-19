@@ -22,7 +22,8 @@ function MetaUtil(opts) {
     this.initialized = true;
 
 
-    this.baseURL = opts.baseURL || 'http://planet.osm.org/replication/changesets'
+    //this.baseURL = opts.baseURL || 'http://planet.osm.org/replication/changesets'
+    this.baseURL = opts.baseURL || 'http://download.geofabrik.de/africa/lesotho-updates'
     this._changesetAttrs = {}
     this.started = false;
     //start
@@ -33,7 +34,8 @@ MetaUtil.prototype._read = function() {
     var that = this;
     if (!this.started) {
         if (this.liveMode) {
-            request.get('http://planet.osm.org/replication/changesets/state.yaml', 
+            //request.get('http://planet.osm.org/replication/changesets/state.yaml', 
+            request.get('http://download.geofabrik.de/africa/lesotho-updates/state.txt',
             function(err, response, body) {
                 that.state = Number(body.substr(body.length - 8))
                 that.end = Infinity //don't stop
@@ -44,16 +46,21 @@ MetaUtil.prototype._read = function() {
         )
         } else {
             this.run() 
-            this.started = true  
+            this.started = true
+			//console.log(this)
         }
     }
 }
 
 MetaUtil.prototype.run = function() {
     var that = this;
+	//console.log(this)
     var numProcessed = 0;
     var parserEnd = function(name, attrs) {
-        if (name === 'changeset') {
+        /*if (name === 'changeset') {
+            that.push(new Buffer(JSON.stringify(that._changesetAttrs) + '\n'), 'ascii');
+        }*/
+        if (name === 'node' || name === 'way') {
             that.push(new Buffer(JSON.stringify(that._changesetAttrs) + '\n'), 'ascii');
         }
         if (name === 'osm') {
@@ -62,24 +69,34 @@ MetaUtil.prototype.run = function() {
                 that.push(null)
             }
         }
+	 
     }
 
     var parserStart = function(name, attrs) {
-        if (name === 'changeset') { 
+        /*if (name === 'changeset') { 
+            if (attrs) {
+                that._changesetAttrs = attrs;
+            }
+        }*/
+        if (name === 'node' || name === 'way') { 
             if (attrs) {
                 that._changesetAttrs = attrs;
             }
         }
-        if (name === 'tag' && that._changesetAttrs && that._changesetAttrs['open'] === 'false') { 
+        /*if (name === 'tag' && that._changesetAttrs && that._changesetAttrs['open'] === 'false') { 
+            that._changesetAttrs[attrs['k']] = attrs['v'];
+        }*/
+        if (name === 'tag' && that._changesetAttrs) { 
             that._changesetAttrs[attrs['k']] = attrs['v'];
         }
     }
 
     var interval = setInterval(function()  {
-
         //Add padding
         var stateStr = that.state.toString().split('').reverse()
+		//console.log(stateStr.length)
         var diff = 9 - stateStr.length
+		//console.log(diff)
         for (var i=0; i < diff; i++) { stateStr.push('0') }
         stateStr = stateStr.join('');
 
@@ -94,7 +111,7 @@ MetaUtil.prototype.run = function() {
         xmlParser.on('startElement', parserStart)
         xmlParser.on('endElement', parserEnd)
 
-        request.get(that.baseURL + url.split('').reverse().join('') + '.osm.gz')
+        request.get(that.baseURL + url.split('').reverse().join('') + '.osc.gz')
             .pipe(zlib.createUnzip())
             .pipe(xmlParser)
 

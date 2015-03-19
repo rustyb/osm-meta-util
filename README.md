@@ -1,4 +1,5 @@
 # OSM-Meta-util
+**Modified for using with the daily .osc diff file provided by GeoFabrik for Lesotho**
 
 A tool to download and process OSM Metadata. This data contains the most recent annotations around a commit to OSM. Specifically, `commit text`, `username`, `bounding box`, `creation date` and `number of edits`. The data is downloaded from the [planet](http://planet.osm.org/replication/changesets/) repository, which contains minutely changesets to OSM.
 
@@ -56,5 +57,5 @@ MetaUtil({
 Use it in combination with [jq](https://stedolan.github.io/jq/)
 
 ```sh
-node app 001181708 001181721 1000 | jq -c '{user:.user, date: .closed_at}'
+node examples/cmd.js 1 49 10000 | jq -c '{user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}'
 ```

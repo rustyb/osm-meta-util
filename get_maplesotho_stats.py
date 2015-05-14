@@ -21,7 +21,7 @@ def check_args(start, end):
 filename = 'lesotho_%s%s.json' % (start, end)
 
 print ("Fetching the changesets from geofabrik...\n")
-os.system("node examples/cmd.js %s %s 30000 | jq -c '{type: .type, user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}' > data/lesotho/%s" % (start, end, filename))
+os.system("node examples/cmd.js %s %s 20000 | jq -c '{type: .type, user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}' > data/lesotho/%s" % (start, end, filename))
 print ("Completed fetch...\n")
 
 print("Converting result into valid JSON...")

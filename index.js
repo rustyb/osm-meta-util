@@ -31,8 +31,7 @@ function MetaUtil(opts) {
 MetaUtil.prototype._read = function() {
     var that = this;
     if (!this.started) {
-        if (this.liveMode) {
-            //request.get('http://planet.osm.org/replication/changesets/state.yaml',
+        if (this.liveMode) {            //request.get('http://planet.osm.org/replication/changesets/state.yaml',
             request.get('http://download.geofabrik.de/africa/lesotho-updates/state.txt',
             function(err, response, body) {
                 that.state = Number(body.substr(body.length - 8));
@@ -64,7 +63,7 @@ MetaUtil.prototype.run = function() {
 
     var parserEnd = function(name, attrs) {
         if (name === 'node') {
-            that.push(new Buffer(JSON.stringify(that._changesetAttrs) + '\n'), 'utf8');
+			that.push(new Buffer(JSON.stringify(that._changesetAttrs) + '\n'), 'utf8');
         }
         if (name === 'osm') {
           queueNext();

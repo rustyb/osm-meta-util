@@ -65,7 +65,7 @@ MetaUtil.prototype.run = function() {
         if (name === 'node') {
 			that.push(new Buffer(JSON.stringify(that._changesetAttrs) + '\n'), 'utf8');
         }
-        if (name === 'osm') {
+        if (name === 'osmChange') {
           queueNext();
           if (!that.liveMode && that.diff === 0) {
               that.push(null);

@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
-import os, argparse
+import sys, os, argparse
 
 # take inputs from command line
 parser = argparse.ArgumentParser(description='Automatically get OSM Lesotho stats for APPs from geofabrik changesets.')
 parser.add_argument('start', help='Start day > 10', type = int)
 parser.add_argument('end', help='End day > 10',type = int)
-parser.add_argument('--stats', help='Run monthly stats.')
+parser.add_argument('--stats', action='store_true', help='Run monthly stats.')
 
 args = parser.parse_args()
 start = args.start

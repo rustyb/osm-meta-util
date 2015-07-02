@@ -4,6 +4,7 @@
 import os
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 # read files in data folder for existing files:
 def read_files(place="lesotho"):
@@ -45,13 +46,57 @@ if len(les_apps) > 0:
 	# get monthly count of unique changesets
 	mon_un = les_apps.groupby(['user']).resample('M', how='nunique')[['changeset']] 
 	mon_un.columns = ['unique_changesets']
-
+	
 	# get montly count of all changeset
 	mon_co = les_apps.groupby(['user']).resample('M', how='count')[['changeset']] 
 	mon_co.columns = ['total_edits']
-
+	
 	# combine unqiue and total edits
 	app_mon_total = mon_un.join(mon_co).unstack()
-
+	
 	# output to csv
 	app_mon_total.to_csv("montly_app_tracking.csv")
+	
+	app_yun = les_apps.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
+	app_count = les_apps.groupby(['user']).resample('AS', how='count')[['changeset']].reset_index().set_index('user')
+	
+	app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
+	ap_us = app_edits.unstack().fillna(0)
+	ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']
+	
+	ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
+	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
+
+
+
+# get some stats for all the users contributing to map_lesotho
+yn = lesa.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
+yc = lesa.groupby(['user']).resample('AS', how='count')[['changeset']].reset_index().set_index('user')
+
+yn.columns = ['timestamp', 'number_changesets']
+yc.columns = ['timestamp', 'edit_count']
+
+#yec = lesa[['user', 'type']].groupby(['user', 'type']).resample('AS', how='count')[['type']].reset_index().set_index('user')
+yec = lesa[['user', 'type']].groupby(['user','type']).size()
+
+## get top 10 users from all
+pd.merge(yn[['number_changesets']].reset_index(), yc[['edit_count']].reset_index(), on='user').set_index('user').sort('edit_count', ascending=False)[0:10].plot(kind='barh', title="#MapLesotho Top10 Users - Edits vs Changesets since Feb 2015")
+
+def f(s):
+    return s/s.sum()
+
+## get number of creates/modifies/deletes for same top 10
+yec1 = yec.reset_index()
+ii = pd.merge(yn[['number_changesets']].reset_index(), yc[['edit_count']].reset_index(), on='user').set_index('user').sort('edit_count', ascending=False)[0:10].sort('edit_count', ascending=False).index
+xxx =yec.unstack()
+xxx.loc[ii.values].T.apply(f, axis=0).T.plot(kind='barh', stacked=True)
+xxx.loc[ii.values][['create', 'modify']].plot(kind='barh', stacked=True)
+
+
+def f(s):
+    return s/s.sum()
+
+yecapp = les_apps[['user', 'type']].groupby(['user','type']).size()
+yecapp.unstack().T.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type")
+
+

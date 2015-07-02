@@ -66,6 +66,16 @@ if len(les_apps) > 0:
 	ap_us = app_edits.unstack().fillna(0)
 	ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']
 
+	# combine mpaleng users
+	mape_users = ['Mpaleng Oliphant', 'Miss O']
+	new_tots = ap_us.reset_index()[ap_us.reset_index().user.isin(mape_users)].set_index('user').sum().values
+	ap_us.drop(mape_users, inplace=True)
+
+	ap_us = ap_us.reset_index()
+	ap_us.loc[len(ap_us)] = list(np.append(['Mpaleng'], new_tots))
+	ap_us.set_index('user', inplace=True)
+	ap_us[['create', 'delete', 'modify', 'total_edits']] = ap_us[['create', 'delete', 'modify', 'total_edits']].astype('float')
+	#reset dtypes to numbers
 	ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
 	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")

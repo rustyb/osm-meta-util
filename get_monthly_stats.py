@@ -81,6 +81,9 @@ yc.columns = ['timestamp', 'edit_count']
 
 #yec = lesa[['user', 'type']].groupby(['user', 'type']).resample('AS', how='count')[['type']].reset_index().set_index('user')
 yec = lesa[['user', 'type']].groupby(['user','type']).size()
+yec1 = yec.unstack().fillna(0)
+yec1['total_edits'] = yec1.sum(axis=1)
+yec1.sort('total_edits', ascending=False).to_csv("all_users_edits_by_type.csv")
 
 ## get top 10 users from all
 pd.merge(yn[['number_changesets']].reset_index(), yc[['edit_count']].reset_index(), on='user').set_index('user').sort('edit_count', ascending=False)[0:10].plot(kind='barh', title="#MapLesotho Top10 Users - Edits vs Changesets since Feb 2015")

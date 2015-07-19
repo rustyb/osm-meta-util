@@ -48,29 +48,29 @@ if len(les_apps) > 0:
 	# get monthly count of unique changesets
 	mon_un = les_apps.groupby(['user']).resample('M', how='nunique')[['changeset']] 
 	mon_un.columns = ['unique_changesets']
-
+	#
 	# get montly count of all changeset
 	mon_co = les_apps.groupby(['user']).resample('M', how='count')[['changeset']] 
 	mon_co.columns = ['total_edits']
-
+	#
 	# combine unqiue and total edits
 	app_mon_total = mon_un.join(mon_co).unstack()
-
+	#
 	# output to csv
 	app_mon_total.to_csv("montly_app_tracking.csv")
-	
+	#
 	app_yun = les_apps.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
 	app_count = les_apps.groupby(['user']).resample('AS', how='count')[['changeset']].reset_index().set_index('user')
-
+	#
 	app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
 	ap_us = app_edits.unstack().fillna(0)
 	ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']
-
+	#
 	# combine mpaleng users
 	mape_users = ['Mpaleng Oliphant', 'Miss O']
 	new_tots = ap_us.reset_index()[ap_us.reset_index().user.isin(mape_users)].set_index('user').sum().values
 	ap_us.drop(mape_users, inplace=True)
-
+	#
 	ap_us = ap_us.reset_index()
 	ap_us.loc[len(ap_us)] = list(np.append(['Mpaleng'], new_tots))
 	ap_us.set_index('user', inplace=True)
@@ -80,7 +80,11 @@ if len(les_apps) > 0:
 	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")
 
+
 sys.exit()
+
+ap_us.sort('total_edits')[['create', 'delete', 'modify']].iplot(filename='test 1',kind='barh', barmode='stack', title='#MapLesotho mappers by edits Feb 2015 to 18 July 2015',xTitle='Edits', yTitle='OSM Username')
+ap_us.sort('total_edits')[['create', 'delete', 'modify']].iplot(filename='test 1',kind='barh', barmode='stack', title='#MapLesotho mappers by edits Feb 2015 to 18 July 2015',xTitle='Edits', yTitle='OSM Username', colors=['rgba(31, 119, 180, 1)', 'rgba(255, 127, 14, 1)','rgba(44, 160, 44, 1)'], opacity='1',world_readable=True,bargap=0.0, width=0.0)
 
 # get some stats for all the users contributing to map_lesotho
 yn = lesa.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
@@ -115,4 +119,5 @@ def f(s):
 yecapp = les_apps[['user', 'type']].groupby(['user','type']).size()
 yecapp.unstack().T.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type")
 
+#plot_url = py.plot_mpl(yecapp.unstack().T.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type"))
 

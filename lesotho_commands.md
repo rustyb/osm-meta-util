@@ -67,3 +67,5 @@ ts = test1.groupby(['type']).resample('D', how='size')
 ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size')
 ts.unstack().T.iplot(filename='Test1')
 ts.unstack().T.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count')
+tst.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count', fill=True)
+

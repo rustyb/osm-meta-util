@@ -61,3 +61,9 @@ app_edits.set_index(app_edits.timestamp, inplace=True)
 
 app_results = app_edits.groupby(['user']).agg()
 ````
+
+# get time series of daily create delete update...
+ts = test1.groupby(['type']).resample('D', how='size')
+ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size')
+ts.unstack().T.iplot(filename='Test1')
+ts.unstack().T.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count')

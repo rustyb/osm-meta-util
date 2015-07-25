@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import cufflinks as cf
 
 pd.options.display.mpl_style = 'default' # set styles to nice colours for graphs
 
@@ -80,6 +81,9 @@ if len(les_apps) > 0:
 	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")
 
+# plot timeline to plot.ly
+ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size').unstack().T
+ts.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count')
 
 sys.exit()
 
@@ -116,8 +120,8 @@ xxx.loc[ii.values][['create', 'modify']].plot(kind='barh', stacked=True)
 def f(s):
     return s/s.sum()
 
-yecapp = les_apps[['user', 'type']].groupby(['user','type']).size()
-yecapp.unstack().T.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type")
+yecapp = les_apps[['user', 'type']].groupby(['user','type']).size().unstack().T
+yecapp.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type")
 
 #plot_url = py.plot_mpl(yecapp.unstack().T.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type"))
 

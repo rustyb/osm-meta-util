@@ -80,6 +80,11 @@ if len(les_apps) > 0:
 	ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
 	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")
+	
+	import datetime
+	t = datetime.datetime.now()
+	name = ("%s/%s/%s" % (t.day, t.month, t.year))
+	ap_us.sort('total_edits', ascending=True).iplot(filename='Users Edits up to %s' % name, title='#MapLesotho Timeline', yTitle='Edit Count', kind='barh', barmode='stack')
 
 # plot timeline to plot.ly
 ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size').unstack().T

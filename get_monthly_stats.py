@@ -87,7 +87,9 @@ ts.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='
 
 tst = lesa[lesa.user == 'tshedy']
 tst = tst.groupby(['type']).resample('D', how='size')
-tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True)
+annotations={'2015-03-28':'NUL Mapathon','2015-06-19':'AIT & APP', '2015-04-18': 'Mohales Hoek', '2015-01-15': 'Maseru', '2015-02-13': 'Maseru'}
+
+tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True, annotations=annotations)
 
 sys.exit()
 

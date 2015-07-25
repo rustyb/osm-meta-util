@@ -85,6 +85,10 @@ if len(les_apps) > 0:
 ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size').unstack().T
 ts.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count')
 
+tst = lesa[lesa.user == 'tshedy']
+tst = tst.groupby(['type']).resample('D', how='size')
+tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True)
+
 sys.exit()
 
 ap_us.sort('total_edits')[['create', 'delete', 'modify']].iplot(filename='test 1',kind='barh', barmode='stack', title='#MapLesotho mappers by edits Feb 2015 to 18 July 2015',xTitle='Edits', yTitle='OSM Username')

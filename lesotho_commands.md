@@ -75,4 +75,8 @@ tst[['create', 'delete','modify']].iplot(filename='#MapLesotho Timeline', title=
 
 tst.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count', fill=True, annotations=annotations)
 
+tst = lesa[lesa.user == 'tshedy']
+tst = tst.groupby(['type']).resample('D', how='size')
+tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True)
+
 

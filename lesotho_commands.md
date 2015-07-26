@@ -79,4 +79,7 @@ tst = lesa[lesa.user == 'tshedy']
 tst = tst.groupby(['type']).resample('D', how='size')
 tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True)
 
+sss = ap_us.sort('total_edits', ascending=True)[['create', 'delete', 'modify']].iplot(filename=name, title=name, xTitle='Edit Count', kind='barh', barmode='stack', asFigure=True, dimensions=(500,1000), margin=(200,2,2,2))
+
+py.image.save_as(sss,filename='img/test.png',format='png', width=500,height=1000)
 

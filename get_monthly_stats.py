@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cufflinks as cf
 import plotly.plotly as py
+import datetime
 
 pd.options.display.mpl_style = 'default' # set styles to nice colours for graphs
 
@@ -51,15 +52,18 @@ if len(les_apps) > 0:
 	mon_un = les_apps.groupby(['user']).resample('M', how='nunique')[['changeset']] 
 	mon_un.columns = ['unique_changesets']
 	#
-	# get montly count of all changeset
-	mon_co = les_apps.groupby(['user']).resample('M', how='count')[['changeset']] 
-	mon_co.columns = ['total_edits']
+	# get montly count of all changes
+	#mon_co = les_apps.groupby(['user']).resample('M', how='count')[['changeset']] 
+	#mon_co.columns = ['total_edits']
 	#
 	# combine unqiue and total edits
-	app_mon_total = mon_un.join(mon_co).unstack()
+	#app_mon_total = mon_un.join(mon_co).unstack()
+	# fix for the moment to avoid segmentation fault
+	app_mon_total = mon_un
 	#
 	# output to csv
 	app_mon_total.to_csv("montly_app_tracking.csv")
+	
 	#
 	app_yun = les_apps.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
 	app_count = les_apps.groupby(['user']).resample('AS', how='count')[['changeset']].reset_index().set_index('user')
@@ -82,7 +86,7 @@ if len(les_apps) > 0:
 	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")
 
-	import datetime
+	
 	t = datetime.datetime.now()
 	name = ("Users Edits up to  %s-%s-%s" % (t.day, t.month, t.year))
 	ap_us.sort('total_edits', ascending=True)[['create', 'delete', 'modify']].iplot(filename="Lesotho Users Edits", title=name, xTitle='Edit Count', kind='barh', barmode='stack', margin=(200,50))
@@ -98,6 +102,76 @@ tst = tst.groupby(['type']).resample('D', how='size')
 annotations={'2015-03-28':'NUL Mapathon','2015-06-19':'AIT & APP', '2015-04-18': 'Mohales Hoek', '2015-01-15': 'Maseru', '2015-02-13': 'Maseru'}
 
 tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True, annotations=annotations)
+
+table = ap_us.sort('total_edits', ascending=False).reset_index().to_html()
+table = table.replace('border="1"', '')
+
+html_string = '''
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>#MapLesotho Key Stats</title>
+	<link href='http://cdn.foundation5.zurb.com/foundation.css' rel='stylesheet' />	
+	<style type="text/css">table {border:0;}</style>
+
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+	<body>
+
+		<div class="row ">
+			<div class="small-12 columns">
+				<h2>#MapLesotho User Stats</h2>
+				<p>Stats are collected from geofabrik changeset files. Use these graphs to track your progress in the <strong>#MapLesotho</strong> mapping competition with the grand prize of a smartphone curtosy of <a href="https://www.mapillary.com/"><strong>Mapillary</strong></a>.</p>
+				<div class="hide-for-small-only">
+    			<a href="https://plot.ly/~rustyb/211/" target="_blank" title="Users Edits up to  26-7-2015" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/211.png" alt="Users Edits up to  26-7-2015" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    			<script data-plotly="rustyb:211"  src="https://plot.ly/embed.js" async></script>
+				</div>
+			</div>
+		</div>
+		<div class="row show-for-small-only">
+			<div class="small-12 columns">
+				<p>Graphs will not render properly on this page when on mobile. As such please follow the links below to view graphs.</p>
+				<!-- Button Group Optional Classes: [radius round] -->
+				<ul class="button-group">
+				  <!-- Button Color Classes: [secondary alert success] -->
+				  <!-- Button Size Classes: [tiny small large] -->
+				  <li><a href="https://plot.ly/~rustyb/211/" class="button">User Bar Graph</a></li>
+				  <li><a href="https://plot.ly/~rustyb/148/" class="button">#MapLesotho Timeline Graph</a></li>
+				  <li><a href="https://plot.ly/~rustyb/176/" class="button">Tshedy Timeline Graph</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row hide-for-small-only">
+			<div class="small-12 large-6 columns">
+				<strong>#MapLesotho Timeline</strong>
+				
+				   <div>
+    					<a href="https://plot.ly/~rustyb/148/" target="_blank" title="#MapLesotho Timeline" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/148.png" alt="#MapLesotho Timeline" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    					<script data-plotly="rustyb:148"  src="https://plot.ly/embed.js" async></script>
+					</div>				
+			</div>
+			<div class="small-12 large-6 columns">
+				<strong>Timeline of Tshedy</strong>
+				<div>
+    				<a href="https://plot.ly/~rustyb/176/" target="_blank" title="Timeline of Tshedy" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/176.png" alt="Timeline of Tshedy" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    				<script data-plotly="rustyb:176"  src="https://plot.ly/embed.js" async></script>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 columns">
+				<strong>#MapLesotho Leaderboard</strong>
+				'''+ table + '''			
+			</div>
+		</div>
+	</body>
+	</html>
+'''
+f = open('report.html','w')
+f.write(html_string)
+f.close()
+
 
 sys.exit()
 

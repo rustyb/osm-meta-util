@@ -21,7 +21,7 @@ def check_args(start, end):
 
 
 filename = 'lesotho_%s%s.json' % (start, end)
-total_files = end - start
+total_files = end - start + 1
 
 print ("Fetching %s changesets from geofabrik...\n" % total_files)
 os.system("node examples/cmd.js %s %s | jq -c '{type: .type, user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}' > data/lesotho/%s" % (start, end, filename))

@@ -1,6 +1,21 @@
 # OSM-Meta-util
 **Modified for using with the daily .osc diff file provided by GeoFabrik of Lesotho to track users and their commits to the [#MapLesotho](https://maplesotho.wordpress.com/) project**
 
+This is a modified version of the osm-meta-util to process changeset files produced by [GeoFabrik for Lesotho on a daily basis](http://download.geofabrik.de/africa/lesotho-updates/000/000/).
+
+Primarly this is being used to stream the zip files and then process them to extract every change by osm users and categorize those by __edit type__(create, modify, delete).
+
+These changes are then piped into ```jq``` to create the json to be analysed.
+
+## Two moving parts
+There two key scrips, both written in Python:
+
+- get_monthly_stat.py
+- get_maplesotho_stats.py
+
+__get_maplesotho_stats.py__
+Is the main script which can be called from the command line to go ahead and download the files between certain days and then to process them and plot them using python pandas.
+
 A tool to download and process OSM Metadata. This data contains the most recent annotations around a commit to OSM. Specifically, `commit text`, `username`, `bounding box`, `creation date` and `number of edits`. The data is downloaded from the [planet](http://planet.osm.org/replication/changesets/) repository, which contains minutely changesets to OSM.
 
 Once installed the tool can be used to pipe in compressed XML data between two dates and output it in JSON. OSM Meta Util can also be used in polling mode and continuously download the latest data every minute.

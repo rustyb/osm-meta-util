@@ -112,7 +112,7 @@ annotations={'2015-03-28':'NUL Mapathon','2015-06-19':'AIT & APP', '2015-04-18':
 
 tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True, annotations=annotations)
 
-table = ap_us.sort('total_edits', ascending=False).reset_index().to_html()
+table = ap_us.sort('total_edits', ascending=False).reset_index().to_html(index=False)
 table = table.replace('border="1"', '')
 
 html_string = '''
@@ -122,7 +122,13 @@ html_string = '''
 	<meta charset=utf-8 />
 	<title>#MapLesotho Key Stats</title>
 	<link href='http://cdn.foundation5.zurb.com/foundation.css' rel='stylesheet' />	
-	<style type="text/css">table {border:0;}</style>
+	<style type="text/css">
+	table {border:0;}
+	.dataframe tbody tr:nth-child(-n+10){
+    background-color: #43AC6A;
+  	}
+  	.dataframe tbody tr:nth-child(-n+10) td{color:#fff; font-weight: bold;}
+	</style>
 
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 

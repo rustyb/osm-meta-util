@@ -46,6 +46,8 @@ apps = apus.username[apus.is_app == 'Y']
 print("Returning monthly stats for %s Assistant Planners" % len(apps))
 les_apps = lesa[lesa.user.isin(apps.values)]
 
+
+
 #results = les.groupby(['user']).changeset.nunique().unstack()
 if len(les_apps) > 0:
 	# get monthly count of unique changesets
@@ -86,7 +88,14 @@ if len(les_apps) > 0:
 	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")
 
-	
+	# Join userdata to districts to output district rankings.
+	dis = pd.read_csv('data/lesotho/app_dnames.csv')
+	dis.set_index('uname', inplace=True) # set to uname
+	test = ap_us.join(dis).reset_index()
+	test[pd.isnull(test.District)]
+	df2 = test.groupby(['District']).sum().sort('total_edits', ascending=False)
+	df2.reset_index().to_csv('csv/district_rannking.csv', index=False)
+
 	t = datetime.datetime.now()
 	name = ("Users Edits up to  %s-%s-%s" % (t.day, t.month, t.year))
 	ap_us.sort('total_edits', ascending=True)[['create', 'delete', 'modify']].iplot(filename="Lesotho Users Edits", title=name, xTitle='Edit Count', kind='barh', barmode='stack', margin=(200,50))

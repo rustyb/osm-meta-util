@@ -98,7 +98,8 @@ if len(les_apps) > 0:
 
 	t = datetime.datetime.now()
 	name = ("Users Edits up to  %s-%s-%s" % (t.day, t.month, t.year))
-	ap_us.sort('total_edits', ascending=True)[['create', 'delete', 'modify']].iplot(filename="Lesotho Users Edits", title=name, xTitle='Edit Count', kind='barh', barmode='stack', margin=(200,50))
+	# using tail because rows sorted lowest to highest to plot right way in plotly
+	ap_us.sort('total_edits', ascending=True).tail(10)[['create', 'delete', 'modify']].iplot(filename="Lesotho Users Edits", title=name, xTitle='Edit Count', kind='barh', barmode='stack', margin=(200,50))
 	ranking=ap_us.sort('total_edits', ascending=True)[['create', 'delete', 'modify']].iplot(filename=name, title=name, xTitle='Edit Count', kind='barh', barmode='stack',margin=(200,2,100,50), asFigure=True)
 	py.image.save_as(ranking,filename='img/%s' % name,format='png', width=800,height=1000)
 
@@ -112,8 +113,11 @@ annotations={'2015-03-28':'NUL Mapathon','2015-06-19':'AIT & APP', '2015-04-18':
 
 tst.unstack().T.cumsum().iplot(filename='Tshedy', title='Timeline of Tshedy', yTitle='Edit Count', fill=True, annotations=annotations)
 
-table = ap_us.sort('total_edits', ascending=False).reset_index().to_html(index=False)
+result = ap_us.sort('total_edits', ascending=False).reset_index()
+result.index = np.arange(1, len(result)+1)
+table = result.to_html() #index=False
 table = table.replace('border="1"', '')
+table = table.replace('<th>type</th>', '<th>Rank</th>')
 
 html_string = '''
 <!DOCTYPE html>
@@ -127,21 +131,24 @@ html_string = '''
 	.dataframe tbody tr:nth-child(-n+10){
     background-color: #43AC6A;
   	}
+  	.row {max-width:72rem;}
   	.dataframe tbody tr:nth-child(-n+10) td{color:#fff; font-weight: bold;}
+  	.dataframe tbody tr th {
+    text-align: right;
+	}
+	.dataframe tbody tr:nth-child(-n+10) th {
+    color: #FFF;
+	}
 	</style>
 
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
 	<body>
 
-		<div class="row ">
+		<div class="row">
 			<div class="small-12 columns">
 				<h2>#MapLesotho User Stats</h2>
 				<p>Stats are collected from geofabrik changeset files. Use these graphs to track your progress in the <strong>#MapLesotho</strong> mapping competition with the grand prize of a smartphone curtosy of <a href="https://www.mapillary.com/"><strong>Mapillary</strong></a>.</p>
-				<div class="hide-for-small-only">
-    			<a href="https://plot.ly/~rustyb/211/" target="_blank" title="Users Edits up to  26-7-2015" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/211.png" alt="Users Edits up to  26-7-2015" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    			<script data-plotly="rustyb:211"  src="https://plot.ly/embed.js" async></script>
-				</div>
 			</div>
 		</div>
 		<div class="row show-for-small-only">
@@ -157,16 +164,24 @@ html_string = '''
 				</ul>
 			</div>
 		</div>
-		<div class="row hide-for-small-only">
+		<div class="row ">
 			<div class="small-12 large-6 columns">
+				<strong>#MapLesotho Leaderboard</strong>
+				'''+ table + '''			
+			</div>
+			<div class="small-12 large-6 columns hide-for-small-only">
+				<strong>Leaderboard Stack</strong>
+				<div>
+    			<a href="https://plot.ly/~rustyb/211/" target="_blank" title="Users Edits up to  26-7-2015" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/211.png" alt="Users Edits up to  26-7-2015" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    			<script data-plotly="rustyb:211"  src="https://plot.ly/embed.js" async></script>
+				</div>
 				<strong>#MapLesotho Timeline</strong>
 				
 				   <div>
     					<a href="https://plot.ly/~rustyb/148/" target="_blank" title="#MapLesotho Timeline" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/148.png" alt="#MapLesotho Timeline" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     					<script data-plotly="rustyb:148"  src="https://plot.ly/embed.js" async></script>
 					</div>				
-			</div>
-			<div class="small-12 large-6 columns">
+			
 				<strong>Timeline of Tshedy</strong>
 				<div>
     				<a href="https://plot.ly/~rustyb/176/" target="_blank" title="Timeline of Tshedy" style="display: block; text-align: center;"><img src="https://plot.ly/~rustyb/176.png" alt="Timeline of Tshedy" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -175,10 +190,7 @@ html_string = '''
 			</div>
 		</div>
 		<div class="row">
-			<div class="small-12 columns">
-				<strong>#MapLesotho Leaderboard</strong>
-				'''+ table + '''			
-			</div>
+			
 		</div>
 	</body>
 	</html>

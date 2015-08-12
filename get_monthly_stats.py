@@ -65,7 +65,7 @@ if len(les_apps) > 0:
 	#
 	# output to csv
 	app_mon_total.to_csv("montly_app_tracking.csv")
-	
+
 	#
 	app_yun = les_apps.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
 	app_count = les_apps.groupby(['user']).resample('AS', how='count')[['changeset']].reset_index().set_index('user')
@@ -84,8 +84,8 @@ if len(les_apps) > 0:
 	ap_us.set_index('user', inplace=True)
 	ap_us[['create', 'delete', 'modify', 'total_edits']] = ap_us[['create', 'delete', 'modify', 'total_edits']].astype('float')
 	#reset dtypes to numbers
-	ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
-	ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
+	#ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
+	#ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
 	ap_us.sort('total_edits', ascending=False).to_csv("app_total_edits_by_type.csv")
 
 	# Join userdata to districts to output district rankings.
@@ -105,7 +105,26 @@ if len(les_apps) > 0:
 
 # plot timeline to plot.ly
 ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size').unstack().T
+ts['total'] = ts.iloc[:,].sum(axis=1) # add total column
+ts['total'] = ts.total.cumsum()
+ts.fillna(0, inplace=True) # full NaN with zeros
 ts.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count')
+tsF = ts.iplot(filename='#MapLesotho Timeline', title='#MapLesotho Timeline', yTitle='Edit Count',asFigure=True)
+
+#update total column to not be turned off by default
+tsF['data'][3].update({'visible':'legendonly', 'line': {'width': '6'}})
+
+def to_unix_time(dt):
+    epoch =  datetime.datetime.utcfromtimestamp(0)
+    return (dt - epoch).total_seconds() * 1000
+
+dFrom = t - datetime.timedelta(days=14)
+
+#update the range to show initially to today - 14 days
+tsF['layout']['xaxis'].update({'range': [to_unix_time(dFrom), to_unix_time(t)]})
+
+#update the plot online
+py.iplot(tsF, filename='#MapLesotho Timeline')
 
 tst = lesa[lesa.user == 'tshedy']
 tst = tst.groupby(['type']).resample('D', how='size')

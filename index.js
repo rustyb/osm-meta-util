@@ -34,6 +34,7 @@ MetaUtil.prototype._read = function() {
         if (this.liveMode) {            //request.get('http://planet.osm.org/replication/changesets/state.yaml',
             request.get('http://download.geofabrik.de/africa/lesotho-updates/state.txt',
             function(err, response, body) {
+                console.log(response.statusCode) // 200 
                 that.state = Number(body.substr(body.length - 8));
                 that.end = Infinity; //don't stop
                 that.delay = 60000; //every minute
@@ -102,12 +103,15 @@ MetaUtil.prototype.run = function() {
         xmlParser.on('endElement', parserEnd);
 
         //Get YAML state file
-        request.get('http://planet.osm.org/replication/changesets/state.yaml',
-            function(err, response, body) {
+        //request.get('http://download.geofabrik.de/africa/lesotho-updates/state.txt',
+            //function(err, response, body) {
                 var nodata = true;
                 //If YAML state is bigger, we can get a new file
-                if (Number(body.substr(body.length - 8)) >= that.state) {
+                //if (Number(body.substr(body.length - 8)) >= that.state) {
                     var ss = request.get(that.baseURL + url.split('').reverse().join('') + '.osc.gz')
+                        .on('response', function(response) {
+                            //console.log(response.statusCode) // 200 
+                        })
                         .pipe(zlib.createUnzip())
                         .on('data', function(data) {
                           nodata = (data.length === 0) && nodata;
@@ -121,9 +125,9 @@ MetaUtil.prototype.run = function() {
                         .pipe(xmlParser);
 
                     that.state += 1;
-                }
-            }
-        );
+                //}
+            //}
+        //);
     }
     next();
 };

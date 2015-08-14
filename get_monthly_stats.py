@@ -219,6 +219,30 @@ f.write(html_string)
 f.close()
 
 
+############################
+## get the district stats
+############################
+uapps = les_apps.set_index('user')
+district_time = uapps.join(dis).reset_index()
+district_time.set_index(district_time.timestamp, inplace=True)
+d_timeline = district_time.groupby(['District']).resample('D', how='size').unstack().T.fillna(0)
+
+uperday = district_time.groupby(['District'])[['index']].resample('D', how='nunique').unstack().T.fillna(0)
+xx =uperday.reset_index().set_index('timestamp').drop(['level_0'], axis=1)
+
+
+d_timeline = d_timeline.cumsum()
+
+dsF = d_timeline.iplot(filename="district_edits", title="District Trend", xTitle='Edit Count',fill=True, annotations=annotations, asFigure=True)
+xx.iplot(filename="district_users", title="District Users per day", xTitle='Day', subplots=True)
+#update the range to show initially to today - 14 days
+dsF['layout']['xaxis'].update({'range': [to_unix_time(dFrom), to_unix_time(t)]})
+#update the plot online
+py.iplot(dsF, filename='district_edits')
+
+
+
+
 sys.exit()
 
 ap_us.sort('total_edits')[['create', 'delete', 'modify']].iplot(filename='test 1',kind='barh', barmode='stack', title='#MapLesotho mappers by edits Feb 2015 to 18 July 2015',xTitle='Edits', yTitle='OSM Username')

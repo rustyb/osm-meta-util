@@ -101,7 +101,7 @@ if len(les_apps) > 0:
 	# using tail because rows sorted lowest to highest to plot right way in plotly
 	ap_us.sort('total_edits', ascending=True).tail(10)[['create', 'delete', 'modify']].iplot(filename="Lesotho Users Edits", title=name, xTitle='Edit Count', kind='barh', barmode='stack', margin=(200,50))
 	ranking=ap_us.sort('total_edits', ascending=True)[['create', 'delete', 'modify']].iplot(filename=name, title=name, xTitle='Edit Count', kind='barh', barmode='stack',margin=(200,2,100,50), asFigure=True)
-	py.image.save_as(ranking,filename='img/%s' % name,format='png', width=800,height=1000)
+	#py.image.save_as(ranking,filename='img/%s' % name,format='png', width=800,height=1000)
 
 # plot timeline to plot.ly
 ts = lesa[lesa.index > '2015-01-01'].groupby(['type']).resample('D', how='size').unstack().T
@@ -235,16 +235,18 @@ xx =uperday.reset_index().set_index('timestamp').drop(['level_0'], axis=1)
 
 d_timeline = d_timeline.cumsum()
 annotations1={'2015-07-01':'Start','2015-07-10':'Pre-announce','2015-07-14':'Pre-announce 2','2015-08-16':'1 million nodes' }
+t = datetime.datetime.now()
 
 dsF = d_timeline.iplot(filename="district_edits", title="District Trend", xTitle='Edit Count',fill=False, annotations=annotations1, asFigure=True, width=4)
 xx.iplot(filename="district_users", title="District Users per day", xTitle='Day', subplots=True)
 #update the range to show initially to today - 14 days
 dsF['layout']['xaxis'].update({'range': [to_unix_time(datetime.datetime(2015, 6, 28)), to_unix_time(t)]})
-dsF['layout']['yaxis'].update({'range': [-1000,(d_timeline.Leribe.max()+100)]})
+dsF['layout']['yaxis'].update({'range': [-1000,(d_timeline.Leribe.max()+1000)]})
 dsF['data'][1]['line'].update({'color':'rgba(204,3,35,1.0)'})
 
 for anno in dsF['layout']['annotations']:
-	anno.update({'y': 0})
+	anno.update({'y': 0, 'ay': -300,'font':{'color':"#4D5663",'family':"Droid Sans, sans-serif"}, 'borderpad':10})
+
 #update the plot online
 py.iplot(dsF, filename='district_edits')
 

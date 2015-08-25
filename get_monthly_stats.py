@@ -292,4 +292,18 @@ yecapp = les_apps[['user', 'type']].groupby(['user','type']).size().unstack().T
 yecapp.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type")
 
 #plot_url = py.plot_mpl(yecapp.unstack().T.apply(f, axis=0).T.plot(kind='barh', stacked=True, title="APP '%' of edit type"))
+# get mannoby stats
+man = les_apps[les_apps.user == 'manobby']
+mant = man[man.index>'20-08-2015'].groupby(['type']).resample('5min', how='size').unstack().T
+mant['total'] = mant.iloc[:,].sum(axis=1)
+mant['total'] = mant.total.cumsum()
+mant.fillna(0, inplace=True)
+mant.iplot(filename='manobby-timeline-5minutes', title='Manobby Timeline 5mins', yTitle='Edit Count')
 
+
+rusty = les_apps[les_apps.user == 'tshedy']
+rustyt = rusty[rusty.index>'20-08-2015'].groupby(['type']).resample('5min', how='size').unstack().T
+rustyt['total'] = rustyt.iloc[:,].sum(axis=1)
+rustyt['total'] = rustyt.total.cumsum()
+rustyt.fillna(0, inplace=True)
+rustyt.iplot(filename='Tshedy-5minutes', title='tshedy Timeline 5mins', yTitle='Edit Count')

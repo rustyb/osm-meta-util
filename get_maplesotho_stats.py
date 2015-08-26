@@ -24,7 +24,7 @@ filename = 'lesotho_%s%s.json' % (start, end)
 total_files = end - start + 1
 
 print ("Fetching %s changesets from geofabrik...\n" % total_files)
-os.system("node examples/cmd.js %s %s | jq -c '{type: .type, user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}' > data/lesotho/%s" % (start, end, filename))
+os.system("node examples/cmd.js %s %s | jq -c '{name: .name, type: .type, user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}' > data/lesotho/%s" % (start, end, filename))
 print ("Completed fetch...\n")
 
 print("Converting result into valid JSON...")

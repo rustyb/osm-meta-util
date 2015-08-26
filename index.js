@@ -63,7 +63,7 @@ MetaUtil.prototype.run = function() {
     }
 
     var parserEnd = function(name, attrs) {
-        if (name === 'node') {
+        if (name === 'node' || name === 'way') {
 			that.push(new Buffer(JSON.stringify(that._changesetAttrs) + '\n'), 'utf8');
         }
         if (name === 'osmChange') {
@@ -81,6 +81,7 @@ MetaUtil.prototype.run = function() {
         if (name === 'node' || name === 'way') {
             that._changesetAttrs = attrs;
             that._changesetAttrs['type'] = type;
+            that._changesetAttrs['name'] = name;
         }
     };
 

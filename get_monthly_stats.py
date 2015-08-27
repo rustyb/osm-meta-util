@@ -45,8 +45,8 @@ apps = apus.username[apus.is_app == 'Y']
 
 print("Returning monthly stats for %s Assistant Planners" % len(apps))
 les_apps = lesa[lesa.user.isin(apps.values)]
-
-
+#les_apps.drop('name', axis=1, inplace=True) # drop column with name: [way,node]
+les_apps = les_apps[les_apps['name'] != 'way'] # remove all the ways
 
 #results = les.groupby(['user']).changeset.nunique().unstack()
 if len(les_apps) > 0:

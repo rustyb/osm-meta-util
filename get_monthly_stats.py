@@ -166,6 +166,7 @@ html_string = '''
 
 		<div class="row">
 			<div class="small-12 columns">
+				<a href="comp_fin.html"><strong> competition Finished - Results Announced 2/09/2015 &rarr;</strong></a>
 				<h2>#MapLesotho User Stats</h2>
 				<p>Stats are collected from geofabrik changeset files. Use these graphs to track your progress in the <strong>#MapLesotho</strong> mapping competition with the grand prize of a smartphone curtosy of <a href="https://www.mapillary.com/"><strong>Mapillary</strong></a>.</p>
 			</div>

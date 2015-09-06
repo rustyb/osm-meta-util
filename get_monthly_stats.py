@@ -38,6 +38,9 @@ lesa = pd.concat(les0)
 print("Dataframe with %s rows x %s columns" % (lesa.shape[0], lesa.shape[1]))
 
 lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
+# data cleaning, set all 'Miss O' to 'Mpaleng Oliphant'
+lesa.replace(['Miss O'], ['Mpaleng Oliphant'], inplace=True)
+
 lesa.set_index(lesa.timestamp, inplace=True)
 
 apus = pd.read_csv('data/lesotho/app_unames.csv')
@@ -69,20 +72,25 @@ if len(les_apps) > 0:
 	#
 	app_yun = les_apps.groupby(['user']).resample('AS', how='nunique')[['changeset']].reset_index().set_index('user')
 	app_count = les_apps.groupby(['user']).resample('AS', how='count')[['changeset']].reset_index().set_index('user')
-	#
+		#
 	app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
 	ap_us = app_edits.unstack().fillna(0)
 	ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']
+	
+	# get last 30 days
+	d = datetime.datetime.today().strftime("%m/%d/%Y")
+	d30 = datetime.datetime.today() + datetime.timedelta(-30)
+	d30 = d30.strftime("%m/%d/%Y")
+	app_30edits = les_apps[d30:d][['user', 'type']].groupby(['user','type']).size()
+	ap_us = pd.merge(ap_us.reset_index(), app_30edits.reset_index(), on='user', how='outer').set_index('user')
+	ap_us.rename(columns={0:'last_30days'}, inplace=True)
+	ap_us.fillna(0,inplace=True)
 	#
-	# combine mpaleng users
-	mape_users = ['Mpaleng Oliphant', 'Miss O']
-	new_tots = ap_us.reset_index()[ap_us.reset_index().user.isin(mape_users)].set_index('user').sum().values
-	ap_us.drop(mape_users, inplace=True)
 	#
 	ap_us = ap_us.reset_index()
-	ap_us.loc[len(ap_us)] = list(np.append(['Mpaleng'], new_tots))
-	ap_us.set_index('user', inplace=True)
-	ap_us[['create', 'delete', 'modify', 'total_edits']] = ap_us[['create', 'delete', 'modify', 'total_edits']].astype('float')
+	#ap_us.loc[len(ap_us)] = list(np.append(['Mpaleng'], new_tots))
+	#ap_us.set_index('user', inplace=True)
+	ap_us[['create', 'delete', 'modify', 'total_edits', 'last_30days']] = ap_us[['create', 'delete', 'modify', 'total_edits', 'last_30days']].astype('float')
 	#reset dtypes to numbers
 	#ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
 	#ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')
@@ -147,17 +155,17 @@ html_string = '''
 	<link href='http://cdn.foundation5.zurb.com/foundation.css' rel='stylesheet' />	
 	<style type="text/css">
 	table {border:0;}
-	.dataframe tbody tr:nth-child(-n+10){
+	/*.dataframe tbody tr:nth-child(-n+10){
     background-color: #43AC6A;
-  	}
+  	}*/
   	.row {max-width:72rem;}
-  	.dataframe tbody tr:nth-child(-n+10) td{color:#fff; font-weight: bold;}
+  	/*.dataframe tbody tr:nth-child(-n+10) td{color:#fff; font-weight: bold;}*/
   	.dataframe tbody tr th {
     text-align: right;
 	}
-	.dataframe tbody tr:nth-child(-n+10) th {
+	/*.dataframe tbody tr:nth-child(-n+10) th {
     color: #FFF;
-	}
+	}*/
 	</style>
 
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />

@@ -75,20 +75,21 @@ if len(les_apps) > 0:
 		#
 	app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
 	ap_us = app_edits.unstack().fillna(0)
-	ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']
-		
-	# get last 30 days
+	ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']	
+			# get last 30 days
 	d = datetime.datetime.today().strftime("%m/%d/%Y")
 	d30 = datetime.datetime.today() + datetime.timedelta(-30)
 	d30 = d30.strftime("%m/%d/%Y")
-	app_30edits = les_apps[d30:d][['user', 'type']].groupby(['user','type']).size()
+	app_30edits = les_apps[d30:d][['user', 'type']].groupby(['user']).size()
+
+		#ap_us.reset_index(col_level=0, inplace=True)
 	ap_us = pd.merge(ap_us.reset_index(), app_30edits.reset_index(), on='user', how='outer').set_index('user')
 	ap_us.rename(columns={0:'last_30days'}, inplace=True)
 	ap_us.fillna(0,inplace=True)
-	ap_us.drop('type', axis=1, inplace=True)
-		#
+	#ap_us.drop('type', axis=1, inplace=True)
 	#
-	ap_us = ap_us.reset_index()
+	#
+	#ap_us = ap_us.reset_index()
 	#ap_us.loc[len(ap_us)] = list(np.append(['Mpaleng'], new_tots))
 	#ap_us.set_index('user', inplace=True)
 	ap_us[['create', 'delete', 'modify', 'total_edits', 'last_30days']] = ap_us[['create', 'delete', 'modify', 'total_edits', 'last_30days']].astype('float')

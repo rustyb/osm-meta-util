@@ -39,7 +39,7 @@ print("Dataframe with %s rows x %s columns" % (lesa.shape[0], lesa.shape[1]))
 
 lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
 # data cleaning, set all 'Miss O' to 'Mpaleng Oliphant'
-lesa.replace(['Miss O'], ['Mpaleng Oliphant'], inplace=True)
+lesa.replace(['Miss O', 'The Big C'], ['Mpaleng Oliphant', 'DeBigC'], inplace=True)
 
 lesa.set_index(lesa.timestamp, inplace=True)
 

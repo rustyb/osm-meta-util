@@ -92,7 +92,7 @@ if len(les_apps) > 0:
 	#ap_us = ap_us.reset_index()
 	#ap_us.loc[len(ap_us)] = list(np.append(['Mpaleng'], new_tots))
 	#ap_us.set_index('user', inplace=True)
-	ap_us[['create', 'delete', 'modify', 'total_edits', 'last_30days']] = ap_us[['create', 'delete', 'modify', 'total_edits', 'last_3_days']].astype('float')
+	ap_us[['create', 'delete', 'modify', 'total_edits', 'last_3_days']] = ap_us[['create', 'delete', 'modify', 'total_edits', 'last_3_days']].astype('float')
 	#reset dtypes to numbers
 	#ap_us[['total_edits']].sort('total_edits').plot(kind='barh', stacked=True, title="APP Total Edits", figsize=(20,20)).get_figure().savefig('app_total_edits.png')
 	#ap_us.sort('total_edits')[['create', 'modify', 'delete']].plot(kind='barh', stacked=True, title="APP Edits by Type", figsize=(20,20)).get_figure().savefig('app_edits_by_type.png')

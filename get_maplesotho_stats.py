@@ -1,17 +1,32 @@
 #!/usr/bin/python
 
-import sys, os, argparse
+import sys, os, argparse, requests
 
 # take inputs from command line
 parser = argparse.ArgumentParser(description='Automatically get OSM Lesotho stats for APPs from geofabrik changesets.')
-parser.add_argument('start', help='Start day > 10', type = int)
-parser.add_argument('end', help='End day > 10',type = int)
+parser.add_argument('start', help='Start day > 10', type = int, nargs='?')
+parser.add_argument('end', help='End day > 10',type = int, nargs='?')
 parser.add_argument('--stats', action='store_true', help='Run monthly stats.')
 
 args = parser.parse_args()
 start = args.start
 end = args.end
 stats = args.stats
+
+if (start or end) == None:
+	print "No values given, getting latest sequence number"
+	state = requests.get("http://download.geofabrik.de/africa/lesotho-updates/state.txt").content
+	seq_num = state.split('\n')[-2].split('=')[-1]
+	
+	#check that it is 3 long
+	if len(seq_num) == 3:
+		start = int(seq_num)
+		end = int(seq_num)
+		print ("Start Number: ", start)
+	else:
+		print "The sequence number is more than 3 digits long"
+		sys.exit()
+
 
 def check_args(start, end):
 	if (start < 10 and end < 10) and (end - start) > -1:

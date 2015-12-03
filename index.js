@@ -23,7 +23,7 @@ function MetaUtil(opts) {
 
     //this.baseURL = opts.baseURL || 'http://planet.osm.org/replication/changesets';
     //http://download.geofabrik.de/africa/lesotho-updates
-    this.baseURL = opts.baseURL || 'http://planet.openstreetmap.org/replication/minute'; //'http://download.geofabrik.de/africa/lesotho-updates';
+    this.baseURL = opts.baseURL || 'http://download.geofabrik.de/africa/lesotho-updates'; //'http://download.geofabrik.de/africa/lesotho-updates';
     this._changesetAttrs = {};
     this.started = false;
 }
@@ -32,7 +32,7 @@ MetaUtil.prototype._read = function() {
     var that = this;
     if (!this.started) {
         if (this.liveMode) {            //request.get('http://planet.osm.org/replication/changesets/state.yaml',
-            request.get('http://planet.openstreetmap.org/replication/hour/state.txt',
+            request.get('http://download.geofabrik.de/africa/lesotho-updates/state.txt',
             function(err, response, body) {
                 console.log(response.statusCode) // 200 
                 that.state = Number(body.substr(body.length - 8));

@@ -15,11 +15,11 @@ stats = args.stats
 
 if (start or end) == None:
 	print "No values given, getting latest sequence number"
-	state = requests.get("http://download.geofabrik.de/africa/lesotho-updates/state.txt").content
-	seq_num = state.split('\n')[-2].split('=')[-1]
+	state = requests.get("http://planet.openstreetmap.org/replication/minute/state.txt").content
+	seq_num = state.split('\n')[1].split('=')[-1]
 	
 	#check that it is 3 long
-	if len(seq_num) == 3:
+	if len(seq_num) >= 3:
 		start = int(seq_num)
 		end = int(seq_num)
 		print ("Start Number: ", start)
@@ -35,15 +35,16 @@ def check_args(start, end):
 		print("Checks passed moving one.....\n")
 
 
-filename = 'lesotho_%s%s.json' % (start, end)
+filename = 'lesotho_%s_%s.json' % (start, end)
 total_files = end - start + 1
 
 print ("Fetching %s changesets from geofabrik...\n" % total_files)
-os.system("node examples/cmd.js %s %s | jq -c '{name: .name, type: .type, user:.user, changeset: .changeset, version: .version, timestamp: .timestamp}' > data/lesotho/%s" % (start, end, filename))
+os.system("node examples/cmd.js %s %s | jq -s '[. | .[] | select(.lat != null or .lon != null) | {user: .user, id: .id|tonumber, version: .version|tonumber, lat: .lat|tonumber, lon: .lon|tonumber, timestamp:.timestamp, type: .type, name: .name} | select(.lat >=-30.751277776257812 and .lat <= -28.53144 and .lon >= 26.74072265625 and .lon <= 29.498291015624996)]' > data/lesotho1/%s" % (start, end, filename))
+# jq -s '[. | .[] | select(.lat != null or .lon != null) | {user: .user, id: .id|tonumber, version: .version|tonumber, lat: .lat|tonumber, lon: .lon|tonumber, timestamp:.timestamp, type: .type, name: .name} | select(.lat >=-30.751277776257812 and .lat <= -28.53144 and .lon >= 26.74072265625 and .lon <= 29.498291015624996)]'
 print ("Completed fetch...\n")
 
-print("Converting result into valid JSON...")
-os.system(". conv1.sh data/lesotho/%s" % filename)
+#print("Converting result into valid JSON...")
+#os.system(". conv1.sh data/lesotho/%s" % filename)
 
 if stats:
 	print("Begin pandas analysis...\n")

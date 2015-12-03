@@ -16,7 +16,7 @@ stats = args.stats
 if (start or end) == None:
 	print("No values given, getting latest sequence number")
 	# 
-	state = requests.get("http://planet.openstreetmap.org/replication/hour/state.txt").content
+	state = requests.get("http://planet.openstreetmap.org/replication/hour/state.txt").text
 	seq_num = state.split('\n')[1].split('=')[-1]
 	
 	#check that it is 3 long

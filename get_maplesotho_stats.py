@@ -48,5 +48,5 @@ print ("Completed fetch...\n")
 
 if stats:
 	print("Begin pandas analysis...\n")
-	os.system("python get_monthly_stats.py")
+	os.system("python3 get_monthly_stats.py")
 

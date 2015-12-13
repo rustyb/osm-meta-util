@@ -48,9 +48,22 @@ def read_files(place="lesotho"):
 dfiles_h = read_json_files()
 dfiles_d = read_files() # read old daily
 
-les_daily = []
+
+leaderbord = pd.DataFrame(columns=['create', 'delete','modify','total_edits'])
+
 for f in dfiles_d:
-    les_daily.append(pd.read_json(f))
+    print('PRINTING: ' + f)
+    lesa = pd.read_json(f);
+    lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
+    lesa.set_index(lesa.timestamp, inplace=True)
+    les_apps = lesa[lesa.index > '01-01-2015']
+    app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
+    ap_us = app_edits.unstack().fillna(0)
+    #ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']  
+    ap_us['total_edits'] = ap_us.sum(axis=1)
+    leaderbord = pd.concat([leaderbord.reset_index(), ap_us.reset_index()]).groupby('user').sum()
+
+
 
 les_hourly = []
 for f in dfiles_h:
@@ -59,9 +72,9 @@ for f in dfiles_h:
 lesh = pd.concat(les_hourly)
 # fix the naming of columns so they're the same
 lesh = lesh.rename(columns = {'id':'changeset'})
-lesd = pd.concat(les_daily)
+#lesd = pd.concat(les_daily)
 
-lesa = pd.concat([lesh, lesd])
+lesa = lesh
 print("Dataframe with %s rows x %s columns" % (lesa.shape[0], lesa.shape[1]))
 
 lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
@@ -76,7 +89,11 @@ les_apps = lesa[lesa.index > '01-01-2015']
 
 app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
 ap_us = app_edits.unstack().fillna(0)
-ap_us['total_edits'] = ap_us['create'] + ap_us['modify'] + ap_us['delete']  
+ap_us['total_edits'] = ap_us.sum(axis=1) 
+
+ap_us = pd.concat([leaderbord.reset_index(), ap_us.reset_index()]).groupby('user').sum()
+
+
 total_rank = ap_us.sort('total_edits', ascending=False).reset_index()
 #print("Returning monthly stats for %s Assistant Planners" % len(apps))
 #les_apps = lesa[lesa.user.isin(apps.values)]
@@ -95,6 +112,7 @@ table = table.replace('<table  class="dataframe">', '<table class="dataframe" al
 table = table.replace('<th></th>', '<th>Rank</th>')
 table = table.replace('<th>changeset</th>', '<th>Total Edits</th>')
 
+leaderboard = ap_us
 
 html_string = '''
 <!DOCTYPE html>

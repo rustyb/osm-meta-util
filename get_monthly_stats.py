@@ -13,25 +13,45 @@ pd.options.display.mpl_style = 'default' # set styles to nice colours for graphs
 
 # read files in data folder for existing files:
 def read_files(place="lesotho"):
-	wd0 = 'data/'
-	if place == 'lesotho':
-		wd = wd0 + 'lesotho/'
-	else:
-		wd = wd0
-	files = os.listdir (wd) # from /src
-	fcheck = any (f.find ("lesotho") > -1 and f.endswith(".json.new") for f in files)
-	if fcheck:
-		json_files = [wd + i for i in files if i.endswith('.json.new')]
-		print('Found %s geojson.new files in directory...' % len(json_files))
-	else:
-		sys.exit("make sure that json.new files exist in the data/lesotho directory.")
-	return json_files
+    wd0 = 'data/'
+    if place == 'lesotho':
+        wd = wd0 + 'lesotho/'
+    else:
+        wd = wd0
+    files = os.listdir (wd) # from /src
+    fcheck = any (f.find ("lesotho") > -1 and f.endswith(".json.new") for f in files)
+    if fcheck:
+        json_files = [wd + i for i in files if i.endswith('.json.new')]
+        print('Found %s geojson.new files in directory...' % len(json_files))
+    else:
+        sys.exit("make sure that json.new files exist in the data/lesotho directory.")
+    return json_files
+
+# read JSON files in lesotho1
+def read_json_files(place="lesotho"):
+    wd0 = 'data/'
+    if place == 'lesotho':
+        wd = wd0 + 'lesotho1/'
+    else:
+        wd = wd0
+    files = os.listdir (wd) # from /src
+    fcheck = any (f.find ("lesotho") > -1 and f.endswith(".json") for f in files)
+    if fcheck:
+        json_files = [wd + i for i in files if i.endswith('.json')]
+        print('Found %s geojson.new files in directory...' % len(json_files))
+    else:
+        sys.exit("make sure that .json files exist in the data/lesotho1 directory.")
+    return json_files
 
 dfiles = read_files()
+dfiles1 = read_json_files()
 
 les0 = []
 for f in dfiles:
-	les0.append(pd.read_json(f))
+    les0.append(pd.read_json(f))
+
+for f in dfiles1:
+    les0.append(pd.read_json(f))
 
 
 lesa = pd.concat(les0)

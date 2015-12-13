@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, os, argparse, requests
+import sys, os, argparse, requests, json
 
 # take inputs from command line
 parser = argparse.ArgumentParser(description='Automatically get OSM Lesotho stats for APPs from geofabrik changesets.')
@@ -45,6 +45,22 @@ print ("Completed fetch...\n")
 
 #print("Converting result into valid JSON...")
 #os.system(". conv1.sh data/lesotho/%s" % filename)
+def check_empty_files(files):
+    to_delete = ''
+    with open(files) as inFile:
+        try: 
+        	x = json.load(inFile)
+        	if x == []:
+        		to_delete.append(inFile)
+        except ValueError:
+        	#x = []
+        	print('empty json')
+    if len(to_delete) > 0:
+	    os.system('rm %s' % to_delete)
+
+jn =  'data/lesotho1/' + filename
+print('JSON FILE: %s' % jn)
+check_empty_files(jn)
 
 if stats:
 	print("Begin pandas analysis...\n")

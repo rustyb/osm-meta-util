@@ -51,7 +51,7 @@ def check_empty_files(files):
         try: 
         	x = json.load(inFile)
         	if x == []:
-        		to_delete.append(inFile)
+        		to_delete += inFile
         except ValueError:
         	#x = []
         	print('empty json')

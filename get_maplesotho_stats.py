@@ -40,7 +40,7 @@ filename = 'lesotho_%s_%s.json' % (start, end)
 total_files = end - start + 1
 
 print ("Fetching %s changesets from geofabrik...\n" % total_files)
-os.system("node examples/cmd.js %s %s | jq -s '[. | .[] | select(.lat != null or .lon != null) | {user: .user, id: .id|tonumber, version: .version|tonumber, lat: .lat|tonumber, lon: .lon|tonumber, timestamp:.timestamp, type: .type, name: .name} | select(.lat >=-30.751277776257812 and .lat <= -28.53144 and .lon >= 26.74072265625 and .lon <= 29.498291015624996)]' > data/lesotho1/%s" % (start, end, filename))
+os.system("/home/rustyb/.nvm/versions/node/v4.2.2/bin/node examples/cmd.js %s %s | jq -s '[. | .[] | select(.lat != null or .lon != null) | {user: .user, id: .id|tonumber, version: .version|tonumber, lat: .lat|tonumber, lon: .lon|tonumber, timestamp:.timestamp, type: .type, name: .name} | select(.lat >=-30.751277776257812 and .lat <= -28.53144 and .lon >= 26.74072265625 and .lon <= 29.498291015624996)]' > data/lesotho1/%s" % (start, end, filename))
 print ("Completed fetch...\n")
 
 #print("Converting result into valid JSON...")

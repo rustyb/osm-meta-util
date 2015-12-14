@@ -3,7 +3,7 @@ TODAY=`date +%Y-%m-%d`
 
 echo "Today is '$TODAY'"
 
-/usr/bin/python3 /home/rustyb/src/leaderbord/get_maplesotho_stats.py --stats
+/usr/bin/python3 /home/rustyb/src/leaderboard/get_maplesotho_stats.py --stats
 
 /usr/bin/git add /home/rustyb/src/leaderboard/data
 

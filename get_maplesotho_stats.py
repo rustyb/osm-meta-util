@@ -64,5 +64,5 @@ check_empty_files(jn)
 
 if stats:
 	print("Begin pandas analysis...\n")
-	os.system("python3 get_monthly_stats.py")
+	os.system("/usr/bin/python3 get_monthly_stats.py")
 

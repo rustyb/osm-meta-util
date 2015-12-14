@@ -1,0 +1,32 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-12T12:02:08Z",
+    "lon": 27.9775388,
+    "lat": -29.1293947,
+    "version": 2,
+    "id": 3728353353,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-12T12:02:08Z",
+    "lon": 27.9773565,
+    "lat": -29.1296759,
+    "version": 1,
+    "id": 3888983856,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-12T12:02:08Z",
+    "lon": 27.9771312,
+    "lat": -29.1297696,
+    "version": 1,
+    "id": 3888983857,
+    "user": "DeBigC"
+  }
+]

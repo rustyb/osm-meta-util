@@ -1,0 +1,52 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-12T10:20:40Z",
+    "lon": 28.2535669,
+    "lat": -28.7671083,
+    "version": 5,
+    "id": 1672965779,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-12T10:20:40Z",
+    "lon": 28.2532808,
+    "lat": -28.7672905,
+    "version": 6,
+    "id": 1672965868,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-12T10:20:41Z",
+    "lon": 28.254911,
+    "lat": -28.7640814,
+    "version": 3,
+    "id": 1672965964,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-12T10:20:40Z",
+    "lon": 28.2531156,
+    "lat": -28.7673624,
+    "version": 5,
+    "id": 1689332251,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-12T10:20:40Z",
+    "lon": 28.2548221,
+    "lat": -28.7642706,
+    "version": 1,
+    "id": 3888884799,
+    "user": "RAytoun"
+  }
+]

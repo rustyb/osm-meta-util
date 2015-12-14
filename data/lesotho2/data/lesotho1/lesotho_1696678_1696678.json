@@ -1,0 +1,122 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4874079,
+    "lat": -29.3367319,
+    "version": 3,
+    "id": 3300324826,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4874217,
+    "lat": -29.3366491,
+    "version": 3,
+    "id": 3300324827,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4840888,
+    "lat": -29.3368563,
+    "version": 2,
+    "id": 3379410855,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4840915,
+    "lat": -29.336744,
+    "version": 2,
+    "id": 3379410856,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4839333,
+    "lat": -29.336737,
+    "version": 2,
+    "id": 3379410857,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4839359,
+    "lat": -29.3367066,
+    "version": 2,
+    "id": 3379410858,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4838689,
+    "lat": -29.3367066,
+    "version": 2,
+    "id": 3379410859,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4840888,
+    "lat": -29.3366832,
+    "version": 2,
+    "id": 3379415536,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4873986,
+    "lat": -29.336674,
+    "version": 1,
+    "id": 3885888335,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4874192,
+    "lat": -29.3366755,
+    "version": 1,
+    "id": 3885888336,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4873961,
+    "lat": -29.3366992,
+    "version": 1,
+    "id": 3885888337,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-10T11:06:22Z",
+    "lon": 27.4874109,
+    "lat": -29.3367003,
+    "version": 1,
+    "id": 3885888338,
+    "user": "tshedy"
+  }
+]

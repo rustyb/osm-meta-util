@@ -1,0 +1,372 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5682437,
+    "lat": -29.6409252,
+    "version": 3,
+    "id": 1079110512,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5697996,
+    "lat": -29.6409842,
+    "version": 2,
+    "id": 1079112272,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5677045,
+    "lat": -29.6408248,
+    "version": 2,
+    "id": 2789502592,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5694499,
+    "lat": -29.6409815,
+    "version": 2,
+    "id": 2789502595,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5687767,
+    "lat": -29.6409842,
+    "version": 2,
+    "id": 2789502596,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:41Z",
+    "lon": 27.4705712,
+    "lat": -29.3773634,
+    "version": 3,
+    "id": 3216732130,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5741574,
+    "lat": -29.6481082,
+    "version": 2,
+    "id": 3642024536,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T21:29:41Z",
+    "lon": 27.4666342,
+    "lat": -29.3812306,
+    "version": 2,
+    "id": 3671072395,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T21:29:41Z",
+    "lon": 27.4665243,
+    "lat": -29.3808356,
+    "version": 2,
+    "id": 3671072396,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T21:29:41Z",
+    "lon": 27.4664277,
+    "lat": -29.3806697,
+    "version": 2,
+    "id": 3671072397,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T21:29:41Z",
+    "lon": 27.4662292,
+    "lat": -29.3803261,
+    "version": 2,
+    "id": 3671072398,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T21:29:41Z",
+    "lon": 27.4661219,
+    "lat": -29.3801134,
+    "version": 2,
+    "id": 3671072399,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5685256,
+    "lat": -29.6409627,
+    "version": 1,
+    "id": 3877122814,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5690894,
+    "lat": -29.6409868,
+    "version": 1,
+    "id": 3877122815,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5696301,
+    "lat": -29.6409775,
+    "version": 1,
+    "id": 3877122816,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5764381,
+    "lat": -29.6506246,
+    "version": 1,
+    "id": 3877122817,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:01Z",
+    "lon": 27.5769803,
+    "lat": -29.65063,
+    "version": 1,
+    "id": 3877122818,
+    "user": "laurenholland"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4701946,
+    "lat": -29.377339,
+    "version": 1,
+    "id": 3877125120,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4700774,
+    "lat": -29.3773943,
+    "version": 1,
+    "id": 3877125121,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4688862,
+    "lat": -29.3774454,
+    "version": 1,
+    "id": 3877125122,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4699212,
+    "lat": -29.3774454,
+    "version": 1,
+    "id": 3877125123,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4687837,
+    "lat": -29.3774496,
+    "version": 1,
+    "id": 3877125124,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.469765,
+    "lat": -29.3774837,
+    "version": 1,
+    "id": 3877125125,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4693891,
+    "lat": -29.3775177,
+    "version": 1,
+    "id": 3877125126,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.468647,
+    "lat": -29.3775219,
+    "version": 1,
+    "id": 3877125127,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4692426,
+    "lat": -29.3775219,
+    "version": 1,
+    "id": 3877125128,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4677976,
+    "lat": -29.3775262,
+    "version": 1,
+    "id": 3877125129,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4689887,
+    "lat": -29.3775262,
+    "version": 1,
+    "id": 3877125130,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4690864,
+    "lat": -29.3775262,
+    "version": 1,
+    "id": 3877125131,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4679977,
+    "lat": -29.3775432,
+    "version": 1,
+    "id": 3877125132,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4696039,
+    "lat": -29.3775475,
+    "version": 1,
+    "id": 3877125133,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4685689,
+    "lat": -29.3776283,
+    "version": 1,
+    "id": 3877125134,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4675339,
+    "lat": -29.3776368,
+    "version": 1,
+    "id": 3877125135,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4669921,
+    "lat": -29.3776411,
+    "version": 1,
+    "id": 3877125136,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4681686,
+    "lat": -29.3776538,
+    "version": 1,
+    "id": 3877125137,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.4671141,
+    "lat": -29.3776964,
+    "version": 1,
+    "id": 3877125138,
+    "user": "tshedy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:29:39Z",
+    "lon": 27.468315,
+    "lat": -29.3778112,
+    "version": 1,
+    "id": 3877125139,
+    "user": "tshedy"
+  }
+]

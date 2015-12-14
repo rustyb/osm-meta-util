@@ -1,0 +1,52 @@
+[
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T21:48:41Z",
+    "lon": 28.2025105,
+    "lat": -28.9120308,
+    "version": 2,
+    "id": 3682749424,
+    "user": "dermo123"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T21:48:41Z",
+    "lon": 28.2024988,
+    "lat": -28.9119739,
+    "version": 2,
+    "id": 3877137944,
+    "user": "dermo123"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:48:41Z",
+    "lon": 28.202252,
+    "lat": -28.9120208,
+    "version": 1,
+    "id": 3877158634,
+    "user": "dermo123"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:48:41Z",
+    "lon": 28.203121,
+    "lat": -28.9120021,
+    "version": 1,
+    "id": 3877158635,
+    "user": "dermo123"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T21:48:41Z",
+    "lon": 28.2037326,
+    "lat": -28.9120208,
+    "version": 1,
+    "id": 3877158636,
+    "user": "dermo123"
+  }
+]

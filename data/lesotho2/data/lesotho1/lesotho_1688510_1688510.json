@@ -1,0 +1,42 @@
+[
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T18:55:18Z",
+    "lon": 28.092142,
+    "lat": -28.9161177,
+    "version": 2,
+    "id": 3774595063,
+    "user": "lola1234567890"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T18:55:18Z",
+    "lon": 28.092142,
+    "lat": -28.9161177,
+    "version": 2,
+    "id": 3876653121,
+    "user": "lola1234567890"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T18:55:17Z",
+    "lon": 28.0921839,
+    "lat": -28.9161666,
+    "version": 1,
+    "id": 3876833218,
+    "user": "lola1234567890"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T18:55:18Z",
+    "lon": 28.0905266,
+    "lat": -28.9155419,
+    "version": 1,
+    "id": 3876833219,
+    "user": "lola1234567890"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:19Z",
+    "lon": 28.2703132,
+    "lat": -29.5427123,
+    "version": 1,
+    "id": 3877066321,
+    "user": "Gavin Nangle 99"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:19Z",
+    "lon": 28.2703982,
+    "lat": -29.5426214,
+    "version": 1,
+    "id": 3877066322,
+    "user": "Gavin Nangle 99"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:19Z",
+    "lon": 28.2703398,
+    "lat": -29.5425737,
+    "version": 1,
+    "id": 3877066323,
+    "user": "Gavin Nangle 99"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:19Z",
+    "lon": 28.2702531,
+    "lat": -29.542663,
+    "version": 1,
+    "id": 3877066324,
+    "user": "Gavin Nangle 99"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T20:58:06Z",
+    "lon": 28.3595227,
+    "lat": -29.758564,
+    "version": 2,
+    "id": 3877069279,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T20:58:06Z",
+    "lon": 28.3595609,
+    "lat": -29.7586253,
+    "version": 2,
+    "id": 3877069280,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T20:58:06Z",
+    "lon": 28.3596177,
+    "lat": -29.7585986,
+    "version": 2,
+    "id": 3877069281,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T20:58:06Z",
+    "lon": 28.3595795,
+    "lat": -29.7585373,
+    "version": 2,
+    "id": 3877069282,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597249,
+    "lat": -29.7587146,
+    "version": 1,
+    "id": 3877075057,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597463,
+    "lat": -29.758711,
+    "version": 1,
+    "id": 3877075058,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597809,
+    "lat": -29.7588187,
+    "version": 1,
+    "id": 3877075059,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597604,
+    "lat": -29.7588253,
+    "version": 1,
+    "id": 3877075060,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.359768,
+    "lat": -29.7587137,
+    "version": 1,
+    "id": 3877075061,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597875,
+    "lat": -29.7587223,
+    "version": 1,
+    "id": 3877075062,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3598027,
+    "lat": -29.758736,
+    "version": 1,
+    "id": 3877075063,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3598119,
+    "lat": -29.7587532,
+    "version": 1,
+    "id": 3877075064,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3598142,
+    "lat": -29.7587721,
+    "version": 1,
+    "id": 3877075065,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3598094,
+    "lat": -29.7587906,
+    "version": 1,
+    "id": 3877075066,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597978,
+    "lat": -29.7588067,
+    "version": 1,
+    "id": 3877075067,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597385,
+    "lat": -29.7588257,
+    "version": 1,
+    "id": 3877075068,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597177,
+    "lat": -29.75882,
+    "version": 1,
+    "id": 3877075069,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597002,
+    "lat": -29.7588087,
+    "version": 1,
+    "id": 3877075070,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3596878,
+    "lat": -29.7587931,
+    "version": 1,
+    "id": 3877075071,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3596819,
+    "lat": -29.7587748,
+    "version": 1,
+    "id": 3877075072,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3596832,
+    "lat": -29.7587559,
+    "version": 1,
+    "id": 3877075073,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3596915,
+    "lat": -29.7587383,
+    "version": 1,
+    "id": 3877075074,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:05Z",
+    "lon": 28.3597059,
+    "lat": -29.758724,
+    "version": 1,
+    "id": 3877075075,
+    "user": "Jack Skelton"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1328358,
+    "lat": -28.8847928,
+    "version": 1,
+    "id": 3877075519,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1342831,
+    "lat": -28.8845507,
+    "version": 1,
+    "id": 3877075520,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1346734,
+    "lat": -28.8845792,
+    "version": 1,
+    "id": 3877075521,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1344945,
+    "lat": -28.8847216,
+    "version": 1,
+    "id": 3877075522,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1345595,
+    "lat": -28.8852057,
+    "version": 1,
+    "id": 3877075523,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1343644,
+    "lat": -28.8851203,
+    "version": 1,
+    "id": 3877075524,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1343807,
+    "lat": -28.8853766,
+    "version": 1,
+    "id": 3877075525,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1346409,
+    "lat": -28.885519,
+    "version": 1,
+    "id": 3877075526,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1346571,
+    "lat": -28.8856187,
+    "version": 1,
+    "id": 3877075527,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.134527,
+    "lat": -28.8856187,
+    "version": 1,
+    "id": 3877075528,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.134527,
+    "lat": -28.8858038,
+    "version": 1,
+    "id": 3877075529,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1347547,
+    "lat": -28.8859177,
+    "version": 1,
+    "id": 3877075530,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1348197,
+    "lat": -28.886117,
+    "version": 1,
+    "id": 3877075531,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.133844,
+    "lat": -28.8869998,
+    "version": 1,
+    "id": 3877075532,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:20Z",
+    "lon": 28.1321853,
+    "lat": -28.8877971,
+    "version": 1,
+    "id": 3877075533,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1336326,
+    "lat": -28.8881673,
+    "version": 1,
+    "id": 3877075534,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1338603,
+    "lat": -28.8883952,
+    "version": 1,
+    "id": 3877075535,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.133779,
+    "lat": -28.8886087,
+    "version": 1,
+    "id": 3877075536,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1345433,
+    "lat": -28.8883952,
+    "version": 1,
+    "id": 3877075537,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1342506,
+    "lat": -28.887726,
+    "version": 1,
+    "id": 3877075538,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1350474,
+    "lat": -28.8871849,
+    "version": 1,
+    "id": 3877075539,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1353401,
+    "lat": -28.8872846,
+    "version": 1,
+    "id": 3877075540,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1341367,
+    "lat": -28.8894345,
+    "version": 1,
+    "id": 3877075541,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1328683,
+    "lat": -28.8890786,
+    "version": 1,
+    "id": 3877075542,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1315836,
+    "lat": -28.888566,
+    "version": 1,
+    "id": 3877075543,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1314047,
+    "lat": -28.8875836,
+    "version": 1,
+    "id": 3877075544,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1317462,
+    "lat": -28.8864445,
+    "version": 1,
+    "id": 3877075545,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1321691,
+    "lat": -28.8855902,
+    "version": 1,
+    "id": 3877075546,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1250295,
+    "lat": -28.8835832,
+    "version": 1,
+    "id": 3877075547,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1252163,
+    "lat": -28.8835832,
+    "version": 1,
+    "id": 3877075548,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1254591,
+    "lat": -28.8833461,
+    "version": 1,
+    "id": 3877075549,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1254217,
+    "lat": -28.8832152,
+    "version": 1,
+    "id": 3877075550,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1274205,
+    "lat": -28.8831907,
+    "version": 1,
+    "id": 3877075551,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1274112,
+    "lat": -28.8833052,
+    "version": 1,
+    "id": 3877075552,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1276166,
+    "lat": -28.8832888,
+    "version": 1,
+    "id": 3877075553,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1279529,
+    "lat": -28.8832561,
+    "version": 1,
+    "id": 3877075554,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1281117,
+    "lat": -28.8835014,
+    "version": 1,
+    "id": 3877075555,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1278501,
+    "lat": -28.883526,
+    "version": 1,
+    "id": 3877075556,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1277848,
+    "lat": -28.8835996,
+    "version": 1,
+    "id": 3877075657,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1279902,
+    "lat": -28.8837304,
+    "version": 1,
+    "id": 3877075658,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1277287,
+    "lat": -28.8840167,
+    "version": 1,
+    "id": 3877075659,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1281117,
+    "lat": -28.8843356,
+    "version": 1,
+    "id": 3877075660,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1278968,
+    "lat": -28.8845155,
+    "version": 1,
+    "id": 3877075661,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1278968,
+    "lat": -28.8847527,
+    "version": 1,
+    "id": 3877075662,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1285133,
+    "lat": -28.8845809,
+    "version": 1,
+    "id": 3877075663,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1287561,
+    "lat": -28.8847609,
+    "version": 1,
+    "id": 3877075664,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1284853,
+    "lat": -28.8849898,
+    "version": 1,
+    "id": 3877075665,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1285693,
+    "lat": -28.885227,
+    "version": 1,
+    "id": 3877075666,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.128177,
+    "lat": -28.8854151,
+    "version": 1,
+    "id": 3877075667,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1278688,
+    "lat": -28.8853415,
+    "version": 1,
+    "id": 3877075668,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.127654,
+    "lat": -28.8850962,
+    "version": 1,
+    "id": 3877075669,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1274765,
+    "lat": -28.885366,
+    "version": 1,
+    "id": 3877075670,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1271029,
+    "lat": -28.8854642,
+    "version": 1,
+    "id": 3877075671,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1271029,
+    "lat": -28.8852515,
+    "version": 1,
+    "id": 3877075672,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1267107,
+    "lat": -28.8853006,
+    "version": 1,
+    "id": 3877075673,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1268321,
+    "lat": -28.8855214,
+    "version": 1,
+    "id": 3877075674,
+    "user": "adamob2015"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T20:58:21Z",
+    "lon": 28.1250575,
+    "lat": -28.8862084,
+    "version": 1,
+    "id": 3877075675,
+    "user": "adamob2015"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T13:49:51Z",
+    "lon": 27.9977259,
+    "lat": -28.8967337,
+    "version": 2,
+    "id": 3700473672,
+    "user": "sanda108"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T13:49:08Z",
+    "lon": 28.0858612,
+    "lat": -28.9084363,
+    "version": 2,
+    "id": 3727930099,
+    "user": "annabelle_darcy"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-04T13:49:08Z",
+    "lon": 28.0851531,
+    "lat": -28.9074971,
+    "version": 2,
+    "id": 3727930101,
+    "user": "annabelle_darcy"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-04T13:49:51Z",
+    "lon": 27.9972517,
+    "lat": -28.896588,
+    "version": 2,
+    "id": 3840897225,
+    "user": "sanda108"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T13:49:51Z",
+    "lon": 27.9976237,
+    "lat": -28.8966957,
+    "version": 1,
+    "id": 3876282734,
+    "user": "sanda108"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T13:49:51Z",
+    "lon": 27.9976459,
+    "lat": -28.8967562,
+    "version": 1,
+    "id": 3876282735,
+    "user": "sanda108"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T13:49:51Z",
+    "lon": 27.9977037,
+    "lat": -28.8966733,
+    "version": 1,
+    "id": 3876282736,
+    "user": "sanda108"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T13:49:08Z",
+    "lon": 28.0857325,
+    "lat": -28.9069993,
+    "version": 1,
+    "id": 3876284840,
+    "user": "annabelle_darcy"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T13:49:50Z",
+    "lon": 28.2111184,
+    "lat": -28.9116574,
+    "version": 1,
+    "id": 3876286057,
+    "user": "LBrown12~"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-04T13:49:50Z",
+    "lon": 28.2117059,
+    "lat": -28.9056408,
+    "version": 1,
+    "id": 3876286058,
+    "user": "LBrown12~"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-11T21:38:44Z",
+    "lon": 27.8510463,
+    "lat": -29.1291772,
+    "version": 4,
+    "id": 3700665524,
+    "user": "Peter14"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-11T21:38:44Z",
+    "lon": 27.8510669,
+    "lat": -29.1291837,
+    "version": 3,
+    "id": 3718075330,
+    "user": "Peter14"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-11T21:38:44Z",
+    "lon": 27.8510456,
+    "lat": -29.1291605,
+    "version": 3,
+    "id": 3718107064,
+    "user": "Peter14"
+  }
+]

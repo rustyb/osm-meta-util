@@ -1,0 +1,82 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 28.2554545,
+    "lat": -28.7585019,
+    "version": 3,
+    "id": 2979213701,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 27.5866899,
+    "lat": -29.3560291,
+    "version": 4,
+    "id": 3283168915,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 28.4675245,
+    "lat": -28.7679892,
+    "version": 2,
+    "id": 3849388768,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 28.2554643,
+    "lat": -28.7583556,
+    "version": 2,
+    "id": 3870144119,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 28.2554545,
+    "lat": -28.7585019,
+    "version": 2,
+    "id": 3870144120,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 27.5611839,
+    "lat": -29.3233734,
+    "version": 2,
+    "id": 3876077359,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T17:18:58Z",
+    "lon": 27.5867389,
+    "lat": -29.3560252,
+    "version": 2,
+    "id": 3880463769,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-10T17:18:59Z",
+    "lon": 27.5866909,
+    "lat": -29.3560191,
+    "version": 2,
+    "id": 3880463771,
+    "user": "ratrun"
+  }
+]

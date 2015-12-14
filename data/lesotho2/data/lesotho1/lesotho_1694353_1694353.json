@@ -1,0 +1,52 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-08T20:20:54Z",
+    "lon": 27.5866449,
+    "lat": -29.3570269,
+    "version": 4,
+    "id": 3283169103,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-08T20:20:54Z",
+    "lon": 27.5181911,
+    "lat": -29.3324717,
+    "version": 2,
+    "id": 3879059379,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-08T20:20:55Z",
+    "lon": 27.5181911,
+    "lat": -29.3324717,
+    "version": 2,
+    "id": 3879059380,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-08T20:20:55Z",
+    "lon": 27.5866527,
+    "lat": -29.3570184,
+    "version": 2,
+    "id": 3880462538,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-08T20:20:55Z",
+    "lon": 27.4841116,
+    "lat": -29.3754606,
+    "version": 2,
+    "id": 3880638950,
+    "user": "ratrun"
+  }
+]

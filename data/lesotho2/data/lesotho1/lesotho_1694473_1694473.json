@@ -1,0 +1,62 @@
+[
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2015-12-08T22:20:16Z",
+    "lon": 27.5035278,
+    "lat": -29.3819829,
+    "version": 5,
+    "id": 1327536919,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2015-12-08T22:20:10Z",
+    "lon": 27.5035348,
+    "lat": -29.3820224,
+    "version": 2,
+    "id": 3700983567,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-08T22:20:10Z",
+    "lon": 27.5058049,
+    "lat": -29.3758264,
+    "version": 1,
+    "id": 3884067891,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-08T22:20:10Z",
+    "lon": 27.5058204,
+    "lat": -29.3758779,
+    "version": 1,
+    "id": 3884067892,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-08T22:20:10Z",
+    "lon": 27.5058833,
+    "lat": -29.3758634,
+    "version": 1,
+    "id": 3884067893,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2015-12-08T22:20:10Z",
+    "lon": 27.5058677,
+    "lat": -29.375812,
+    "version": 1,
+    "id": 3884067894,
+    "user": "DeBigC"
+  }
+]

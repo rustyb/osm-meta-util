@@ -1,0 +1,852 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5527928,
+    "lat": -29.4113703,
+    "version": 2,
+    "id": 3415680633,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5551019,
+    "lat": -29.412435,
+    "version": 2,
+    "id": 3415703700,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5551964,
+    "lat": -29.4133259,
+    "version": 2,
+    "id": 3415703701,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5559613,
+    "lat": -29.413296,
+    "version": 2,
+    "id": 3415703702,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5558496,
+    "lat": -29.4123601,
+    "version": 2,
+    "id": 3415703703,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2585886,
+    "lat": -28.7587366,
+    "version": 3,
+    "id": 3673064425,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2585695,
+    "lat": -28.7587793,
+    "version": 3,
+    "id": 3673064426,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587455,
+    "lat": -28.7588192,
+    "version": 3,
+    "id": 3673064427,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587566,
+    "lat": -28.7587944,
+    "version": 3,
+    "id": 3673064428,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2584721,
+    "lat": -28.7592734,
+    "version": 3,
+    "id": 3673088933,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2584115,
+    "lat": -28.7593879,
+    "version": 3,
+    "id": 3673088934,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.258812,
+    "lat": -28.7595529,
+    "version": 4,
+    "id": 3673088938,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2588732,
+    "lat": -28.7594364,
+    "version": 3,
+    "id": 3673088939,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2588119,
+    "lat": -28.7594116,
+    "version": 3,
+    "id": 3673088940,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587768,
+    "lat": -28.7594786,
+    "version": 3,
+    "id": 3673088941,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-02T19:22:55Z",
+    "lon": 28.2585421,
+    "lat": -28.7593873,
+    "version": 3,
+    "id": 3673088943,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2584998,
+    "lat": -28.7593666,
+    "version": 3,
+    "id": 3673088944,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2585355,
+    "lat": -28.7592992,
+    "version": 3,
+    "id": 3673088945,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590784,
+    "lat": -28.7584545,
+    "version": 2,
+    "id": 3693043297,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2591833,
+    "lat": -28.7584619,
+    "version": 2,
+    "id": 3693043298,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590706,
+    "lat": -28.758539,
+    "version": 2,
+    "id": 3693043304,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2591759,
+    "lat": -28.7585429,
+    "version": 2,
+    "id": 3693043307,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2586243,
+    "lat": -28.7586959,
+    "version": 2,
+    "id": 3693043315,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2593344,
+    "lat": -28.7587102,
+    "version": 2,
+    "id": 3693043317,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2586068,
+    "lat": -28.7587346,
+    "version": 2,
+    "id": 3693043318,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587546,
+    "lat": -28.7587413,
+    "version": 2,
+    "id": 3693043319,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2589934,
+    "lat": -28.758749,
+    "version": 2,
+    "id": 3693043320,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2593179,
+    "lat": -28.7587557,
+    "version": 2,
+    "id": 3693043321,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2595077,
+    "lat": -28.7587585,
+    "version": 2,
+    "id": 3693043322,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590764,
+    "lat": -28.7587805,
+    "version": 2,
+    "id": 3693043324,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2593898,
+    "lat": -28.7587758,
+    "version": 2,
+    "id": 3693044025,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587371,
+    "lat": -28.75878,
+    "version": 2,
+    "id": 3693044027,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2589703,
+    "lat": -28.7587959,
+    "version": 2,
+    "id": 3693044029,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2593758,
+    "lat": -28.7588143,
+    "version": 2,
+    "id": 3693044030,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2593062,
+    "lat": -28.7587949,
+    "version": 2,
+    "id": 3693044032,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587242,
+    "lat": -28.7588119,
+    "version": 2,
+    "id": 3693044033,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2587162,
+    "lat": -28.7588298,
+    "version": 2,
+    "id": 3693044037,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590533,
+    "lat": -28.7588273,
+    "version": 2,
+    "id": 3693044038,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.25929,
+    "lat": -28.7588394,
+    "version": 2,
+    "id": 3693044041,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-02T19:22:55Z",
+    "lon": 28.2593964,
+    "lat": -28.758856,
+    "version": 2,
+    "id": 3693044045,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2594645,
+    "lat": -28.7588778,
+    "version": 2,
+    "id": 3693044048,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590265,
+    "lat": -28.7590813,
+    "version": 2,
+    "id": 3693044079,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-02T19:22:55Z",
+    "lon": 28.2590118,
+    "lat": -28.7591098,
+    "version": 2,
+    "id": 3693044085,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2591493,
+    "lat": -28.7591202,
+    "version": 2,
+    "id": 3693044088,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2589984,
+    "lat": -28.7591493,
+    "version": 2,
+    "id": 3693044095,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590276,
+    "lat": -28.7591586,
+    "version": 2,
+    "id": 3693044098,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590777,
+    "lat": -28.7591728,
+    "version": 3,
+    "id": 3693044101,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590209,
+    "lat": -28.7591747,
+    "version": 2,
+    "id": 3693044102,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2590704,
+    "lat": -28.7591904,
+    "version": 2,
+    "id": 3693044107,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2591218,
+    "lat": -28.7591868,
+    "version": 2,
+    "id": 3693044108,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2584587,
+    "lat": -28.7587565,
+    "version": 2,
+    "id": 3693339127,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5526749,
+    "lat": -29.4113968,
+    "version": 2,
+    "id": 3923902488,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5524435,
+    "lat": -29.4116779,
+    "version": 2,
+    "id": 3923902489,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5524069,
+    "lat": -29.4119352,
+    "version": 2,
+    "id": 3923902498,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5524069,
+    "lat": -29.4119962,
+    "version": 2,
+    "id": 3923902502,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523947,
+    "lat": -29.412158,
+    "version": 2,
+    "id": 3923902508,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523858,
+    "lat": -29.4122216,
+    "version": 2,
+    "id": 3923902517,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523582,
+    "lat": -29.4124179,
+    "version": 2,
+    "id": 3923902528,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523614,
+    "lat": -29.4125266,
+    "version": 2,
+    "id": 3923902536,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523643,
+    "lat": -29.4126274,
+    "version": 2,
+    "id": 3923902549,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523491,
+    "lat": -29.4127415,
+    "version": 2,
+    "id": 3923904563,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523613,
+    "lat": -29.4128051,
+    "version": 2,
+    "id": 3923904570,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523887,
+    "lat": -29.4131526,
+    "version": 2,
+    "id": 3923904587,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523887,
+    "lat": -29.4132693,
+    "version": 2,
+    "id": 3923904594,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5523917,
+    "lat": -29.413439,
+    "version": 2,
+    "id": 3923904607,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.55241,
+    "lat": -29.4136989,
+    "version": 2,
+    "id": 3923904633,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-02T19:02:56Z",
+    "lon": 27.5525055,
+    "lat": -29.4138276,
+    "version": 2,
+    "id": 3923904650,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5524487,
+    "lat": -29.411877,
+    "version": 1,
+    "id": 3924131355,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5527327,
+    "lat": -29.4118938,
+    "version": 1,
+    "id": 3924131356,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5528712,
+    "lat": -29.4120427,
+    "version": 1,
+    "id": 3924131657,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5528382,
+    "lat": -29.412044,
+    "version": 1,
+    "id": 3924131658,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.552839,
+    "lat": -29.4120573,
+    "version": 1,
+    "id": 3924131659,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5527998,
+    "lat": -29.4120589,
+    "version": 1,
+    "id": 3924131660,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5528732,
+    "lat": -29.4120803,
+    "version": 1,
+    "id": 3924131661,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5528012,
+    "lat": -29.4120832,
+    "version": 1,
+    "id": 3924131662,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5524241,
+    "lat": -29.412193,
+    "version": 1,
+    "id": 3924131663,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5527081,
+    "lat": -29.4122098,
+    "version": 1,
+    "id": 3924131664,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5530629,
+    "lat": -29.4130022,
+    "version": 1,
+    "id": 3924131665,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5529929,
+    "lat": -29.4130079,
+    "version": 1,
+    "id": 3924131666,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.553069,
+    "lat": -29.413059,
+    "version": 1,
+    "id": 3924131667,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:02:55Z",
+    "lon": 27.5529989,
+    "lat": -29.4130647,
+    "version": 1,
+    "id": 3924131668,
+    "user": "Lineo"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2585297,
+    "lat": -28.7594359,
+    "version": 1,
+    "id": 3924182509,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2585231,
+    "lat": -28.7594484,
+    "version": 1,
+    "id": 3924182510,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2586229,
+    "lat": -28.7594889,
+    "version": 1,
+    "id": 3924182511,
+    "user": "DeBigC"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-02T19:22:54Z",
+    "lon": 28.2586282,
+    "lat": -28.7594787,
+    "version": 1,
+    "id": 3924182512,
+    "user": "DeBigC"
+  }
+]

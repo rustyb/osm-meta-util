@@ -15,7 +15,7 @@ import datetime
 
 
 SCOPE = ["https://spreadsheets.google.com/feeds"]
-SECRETS_FILE = "/Users/colinbroderick/Desktop/MapLesothoStats-e1f6b35069cd.json"
+SECRETS_FILE = "MapLesothoStats-e1f6b35069cd.json"
 SPREADSHEET = "#MapLesotho Validation Challenge - Log your tiles (Responses)"
 
 

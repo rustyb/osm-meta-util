@@ -163,7 +163,7 @@ html_string = '''
         <div class="row text-center">
             <div class="small-8 small-centered columns text-center">
                 <h2>#MapLesotho Validation Challenge</h2>
-                <p><a href="./validation.html"><strong>Log your tiles for validation here</strong></a></p>
+                <p><a class="button large radius" href="./validation.html"><strong>Log your tiles for validation here</strong></a></p>
                 <p>Stats are updated once per hour. Your row will turn green once you have 40 of your logged tiles have been validated.</p>
                 <p>Full list of Competition Rules</p>
             </div>

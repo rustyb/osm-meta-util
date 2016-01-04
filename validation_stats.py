@@ -61,7 +61,7 @@ lesa.set_index(lesa.timestamp, inplace=True)
 apus = pd.read_csv('data/competition_usernames.csv', header=None)
 print("Returning stats for %s APPS" % len(apus[1]))
 les_apps = lesa[lesa.user.isin(apus[1].values)]
-les_apps = lesa[lesa.index >= '2016-01-04 07:00:00']
+les_apps = les_apps[les_apps.index >= '2016-01-04 07:00:00']
 
 app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
 ap_us = app_edits.unstack().fillna(0)

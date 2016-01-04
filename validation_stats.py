@@ -55,7 +55,7 @@ print("Dataframe with %s rows x %s columns" % (lesa.shape[0], lesa.shape[1]))
 lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
 
 lesa.set_index(lesa.timestamp, inplace=True)
-les_apps = lesa[lesa.index > '27-12-2015']
+les_apps = lesa[lesa.index >= '04-01-2016 07:00:00']
 
 ## get planner stats
 apus = pd.read_csv('data/competition_usernames.csv', header=None)

@@ -103,7 +103,17 @@ max_ts = str(les_apps.index.max())
 tiles_leader.index = np.arange(1, len(tiles_leader)+1)
 new_cols = {'user': 'Username', 'create': 'Created', 'delete': 'Deleted', 'modify': 'Modified', 'total_edit':'Total', 'valid_tiles': 'Tiles'}
 tiles_leader.rename(columns=new_cols, inplace=True)
-table = pd.DataFrame(tiles_leader).to_html()
+
+def above_40(s):
+    '''
+    highlight the maximum in a Series yellow.
+    '''
+    over_40 = (s >= 40)
+    return ['background-color: #3adb76' if v else '' for v in over_40]
+
+table = pd.DataFrame(tiles_leader)
+table = table.style.apply(above_40, subset=['Tiles'], axis=0).render()
+#table = pd.DataFrame(tiles_leader).to_html()
 table = table.replace('border="1"', '')
 
 table = table.replace('<table  class="dataframe">', '<table class="dataframe" align="center">')
@@ -181,7 +191,7 @@ html_string = '''
                     <span class="top minor">'''+ '{:,}'.format(ap_us['modify'].sum().astype(int)) +'''</span>
                     <span class="top-caption minor">modified</span>
                     <span class="top minor ">'''+ '{:,}'.format(ap_us['delete'].sum().astype(int)) +'''</span>
-                    <span class="top-caption minor">created</span>
+                    <span class="top-caption minor">deleted</span>
                     <br> <small>First Edit Counted: '''+ min_ts +'''</small>
                     <br> <small>Latest Edit Counted: '''+ max_ts +'''</small>
                 </div>

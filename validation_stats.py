@@ -38,14 +38,13 @@ def read_json_files(place="lesotho"):
 
 dfiles_h = read_json_files()
 
-#leaderbord = pd.DataFrame(columns=['create', 'delete','modify','total_edits'])
+leaderbord = pd.DataFrame(columns=['create', 'delete','modify','total_edits'])
 
 les_hourly = []
-lesh = pd.DataFrame()
 for f in dfiles_h:
-    lesh=pd.concat([lesh, pd.read_json(f)])
+    les_hourly.append(pd.read_json(f))
 
-#lesh = pd.concat(les_hourly)
+lesh = pd.concat(les_hourly)
 # fix the naming of columns so they're the same
 lesh = lesh.rename(columns = {'id':'changeset'})
 #lesd = pd.concat(les_daily)

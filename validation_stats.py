@@ -165,7 +165,7 @@ html_string = '''
                 <h2>#MapLesotho Validation Challenge</h2>
                 <p><a class="button large radius" href="./validation.html"><strong>Log your tiles for validation here</strong></a></p>
                 <p>Stats are updated once per hour. Your row will turn green once you have 40 of your logged tiles have been validated.</p>
-                <p>Full list of Competition Rules</p>
+                <p><a href="https://gist.github.com/rustyb/1ac30de746a3a118b2ff">Full list of Competition Rules</a></p>
             </div>
         </div>
         

@@ -1,0 +1,852 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.5021201,
+    "lat": -29.3146825,
+    "version": 9,
+    "id": 1077346736,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.5034648,
+    "lat": -29.314398,
+    "version": 10,
+    "id": 1077348403,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.4987489,
+    "lat": -29.3118622,
+    "version": 10,
+    "id": 1078592498,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.5006889,
+    "lat": -29.3121032,
+    "version": 6,
+    "id": 1078592513,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.5002259,
+    "lat": -29.3112365,
+    "version": 7,
+    "id": 1078592899,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.498833,
+    "lat": -29.3118245,
+    "version": 10,
+    "id": 1078593771,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5009916,
+    "lat": -29.3149191,
+    "version": 5,
+    "id": 1322386869,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:06Z",
+    "lon": 27.5003849,
+    "lat": -29.3150752,
+    "version": 5,
+    "id": 1322386912,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5020065,
+    "lat": -29.3146846,
+    "version": 5,
+    "id": 1322387377,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5023662,
+    "lat": -29.3145407,
+    "version": 4,
+    "id": 1727071270,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5029759,
+    "lat": -29.3144073,
+    "version": 4,
+    "id": 1727071272,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5016879,
+    "lat": -29.3146899,
+    "version": 4,
+    "id": 1727071307,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5020452,
+    "lat": -29.3146088,
+    "version": 5,
+    "id": 1727071309,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5034381,
+    "lat": -29.3143131,
+    "version": 7,
+    "id": 1727085820,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5010349,
+    "lat": -29.3105309,
+    "version": 4,
+    "id": 2912442472,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5017203,
+    "lat": -29.3105251,
+    "version": 4,
+    "id": 2912442473,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.501023,
+    "lat": -29.3105969,
+    "version": 4,
+    "id": 2912442474,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5017599,
+    "lat": -29.310607,
+    "version": 4,
+    "id": 2912442475,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5010081,
+    "lat": -29.3114263,
+    "version": 4,
+    "id": 2912442488,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.501745,
+    "lat": -29.3114364,
+    "version": 4,
+    "id": 2912442489,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5010458,
+    "lat": -29.3115108,
+    "version": 4,
+    "id": 2912442490,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5017312,
+    "lat": -29.311505,
+    "version": 4,
+    "id": 2912442491,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025015,
+    "lat": -29.3117415,
+    "version": 5,
+    "id": 3005640978,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.502844,
+    "lat": -29.3116111,
+    "version": 5,
+    "id": 3005640979,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.502912,
+    "lat": -29.311747,
+    "version": 5,
+    "id": 3005640980,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5023801,
+    "lat": -29.3118837,
+    "version": 5,
+    "id": 3005640982,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5024347,
+    "lat": -29.3119929,
+    "version": 5,
+    "id": 3005640985,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5024949,
+    "lat": -29.3119967,
+    "version": 5,
+    "id": 3005640986,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5027744,
+    "lat": -29.3119124,
+    "version": 5,
+    "id": 3005640987,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.502357,
+    "lat": -29.312121,
+    "version": 5,
+    "id": 3005640990,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.502525,
+    "lat": -29.312057,
+    "version": 5,
+    "id": 3005640991,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025504,
+    "lat": -29.3121522,
+    "version": 5,
+    "id": 3005640992,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5024011,
+    "lat": -29.312209,
+    "version": 5,
+    "id": 3005640993,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5028733,
+    "lat": -29.3119385,
+    "version": 5,
+    "id": 3005641002,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5028965,
+    "lat": -29.3120624,
+    "version": 5,
+    "id": 3005641003,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5029269,
+    "lat": -29.3120508,
+    "version": 5,
+    "id": 3005641004,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5029699,
+    "lat": -29.3121369,
+    "version": 5,
+    "id": 3005641005,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5028694,
+    "lat": -29.3121751,
+    "version": 5,
+    "id": 3005641006,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5029422,
+    "lat": -29.3123204,
+    "version": 5,
+    "id": 3005641007,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5028384,
+    "lat": -29.31236,
+    "version": 5,
+    "id": 3005641008,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5028867,
+    "lat": -29.3124564,
+    "version": 5,
+    "id": 3005641009,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5027324,
+    "lat": -29.3125151,
+    "version": 5,
+    "id": 3005641010,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026315,
+    "lat": -29.3123135,
+    "version": 5,
+    "id": 3005641011,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026005,
+    "lat": -29.3123254,
+    "version": 5,
+    "id": 3005641012,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026179,
+    "lat": -29.3123601,
+    "version": 5,
+    "id": 3005641013,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5023375,
+    "lat": -29.3124667,
+    "version": 5,
+    "id": 3005641014,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.502276,
+    "lat": -29.3123437,
+    "version": 5,
+    "id": 3005641015,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025603,
+    "lat": -29.3122355,
+    "version": 5,
+    "id": 3005641016,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025769,
+    "lat": -29.3122688,
+    "version": 5,
+    "id": 3005641017,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026675,
+    "lat": -29.3122344,
+    "version": 5,
+    "id": 3005641018,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026589,
+    "lat": -29.3122171,
+    "version": 5,
+    "id": 3005641019,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025951,
+    "lat": -29.3122414,
+    "version": 5,
+    "id": 3005641020,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025312,
+    "lat": -29.3119829,
+    "version": 5,
+    "id": 3005641021,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025201,
+    "lat": -29.3119605,
+    "version": 5,
+    "id": 3005641022,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5024828,
+    "lat": -29.3118446,
+    "version": 5,
+    "id": 3005641023,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5024471,
+    "lat": -29.3117734,
+    "version": 5,
+    "id": 3005641024,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5025062,
+    "lat": -29.3117509,
+    "version": 5,
+    "id": 3005641025,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026358,
+    "lat": -29.3118521,
+    "version": 5,
+    "id": 3005641026,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5026833,
+    "lat": -29.311947,
+    "version": 5,
+    "id": 3005641027,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5028984,
+    "lat": -29.3120658,
+    "version": 5,
+    "id": 3005641028,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.502948,
+    "lat": -29.3120564,
+    "version": 5,
+    "id": 3005641029,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5028588,
+    "lat": -29.3120809,
+    "version": 5,
+    "id": 3005641030,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5038077,
+    "lat": -29.3115355,
+    "version": 4,
+    "id": 3005647529,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5038093,
+    "lat": -29.31157,
+    "version": 4,
+    "id": 3005647530,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5038858,
+    "lat": -29.3115673,
+    "version": 4,
+    "id": 3005647531,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:08:08Z",
+    "lon": 27.5038842,
+    "lat": -29.3115328,
+    "version": 4,
+    "id": 3005647532,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:08:07Z",
+    "lon": 27.5010995,
+    "lat": -29.3149082,
+    "version": 4,
+    "id": 3196002452,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:42:29Z",
+    "lon": 27.5372247,
+    "lat": -29.3256286,
+    "version": 2,
+    "id": 3679566541,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-01-24T18:42:24Z",
+    "lon": 27.5377344,
+    "lat": -29.3254778,
+    "version": 2,
+    "id": 3945648142,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-01-24T18:42:42Z",
+    "lon": 27.5152504,
+    "lat": -29.3031641,
+    "version": 2,
+    "id": 3952550529,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5020172,
+    "lat": -29.3120768,
+    "version": 1,
+    "id": 3964633104,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5020717,
+    "lat": -29.3120781,
+    "version": 1,
+    "id": 3964633105,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5019779,
+    "lat": -29.312086,
+    "version": 1,
+    "id": 3964633106,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5019491,
+    "lat": -29.3120979,
+    "version": 1,
+    "id": 3964633107,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5021352,
+    "lat": -29.3121414,
+    "version": 1,
+    "id": 3964633108,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5009051,
+    "lat": -29.3125197,
+    "version": 1,
+    "id": 3964633109,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5024212,
+    "lat": -29.3126559,
+    "version": 1,
+    "id": 3964633110,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.501058,
+    "lat": -29.3128142,
+    "version": 1,
+    "id": 3964633111,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5014287,
+    "lat": -29.3135002,
+    "version": 1,
+    "id": 3964633112,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5021672,
+    "lat": -29.3147384,
+    "version": 1,
+    "id": 3964633113,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5021896,
+    "lat": -29.3147534,
+    "version": 1,
+    "id": 3964633114,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5022142,
+    "lat": -29.3147701,
+    "version": 1,
+    "id": 3964633115,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5022613,
+    "lat": -29.3147953,
+    "version": 1,
+    "id": 3964633116,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5023608,
+    "lat": -29.3148271,
+    "version": 1,
+    "id": 3964633117,
+    "user": "DaCor"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-01-24T18:08:03Z",
+    "lon": 27.5000607,
+    "lat": -29.3151367,
+    "version": 1,
+    "id": 3964633118,
+    "user": "DaCor"
+  }
+]

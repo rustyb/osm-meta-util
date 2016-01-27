@@ -101,6 +101,9 @@ under40 = tiles_leader[tiles_leader['valid_tiles'] < 40]
 tiles_leader = pd.concat([over40,under40])
 tiles_leader.fillna(0, inplace=True)
 
+format = lambda x: '{0:,.0f}'.format(x)
+tiles_leader = tiles_leader.applymap(format)
+
 tiles_leader.reset_index(inplace=True)
 min_ts = str(les_apps.index.min())
 max_ts = str(les_apps.index.max())
@@ -117,6 +120,7 @@ def above_40(s):
     return ['background-color: #3adb76' if v else '' for v in over_40]
 
 table = pd.DataFrame(tiles_leader)
+table['Tiles'] = table['Tiles'].astype(int)
 table = table.style.apply(above_40, subset=['Tiles'], axis=0).render()
 #table = pd.DataFrame(tiles_leader).to_html()
 table = table.replace('border="1"', '')

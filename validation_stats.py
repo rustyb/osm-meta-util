@@ -89,7 +89,7 @@ column_names = {'Timestamp': 'timestamp','Your username': 'user', 'HotOSM task':
 validated.rename(columns=column_names, inplace=True)
 validated.timestamp = pd.to_datetime(validated.timestamp)
 
-valid = {'Y':True, 'N': False, '': False}
+valid = {'Y':True, 'N': False, '': np.nan}
 validated['validation'] = validated['validation'].map(valid)
 tsubmit = validated['validation'].count()
 

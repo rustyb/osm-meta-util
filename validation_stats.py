@@ -91,6 +91,7 @@ validated.timestamp = pd.to_datetime(validated.timestamp)
 
 valid = {'Y':True, 'N': False, '': False}
 validated['validation'] = validated['validation'].map(valid)
+tsubmit = validated['validation'].count()
 
 tcounted = validated[validated['validation'] == True].groupby(['user', 'validation']).size().reset_index()
 tcounted.rename(columns = {0:'valid_tiles'}, inplace=True)
@@ -192,7 +193,7 @@ html_string = '''
             <div class="small-8 small-centered columns">
                 <div class="text-center">
                 	<span class="top">'''+ '{:,}'.format(tiles_leader['Tiles'].sum().astype(int)) +'''</span>
-                    <span class="top-caption first">total tiles validated since 4 JAN 2016</span>
+                    <span class="top-caption first">of <strong>''' + '{:,}'.format(tsubmit.astype(int)) + '''</strong> total tiles validated since 4 JAN 2016</span>
                     <span class="top minor">'''+ '{:,}'.format(ap_us['total_edits'].sum().astype(int)) +'''</span>
                     <span class="top-caption minor">total since 4 JAN 2016</span>
                     <span class="top minor">'''+ '{:,}'.format(ap_us['create'].sum().astype(int)) +'''</span>

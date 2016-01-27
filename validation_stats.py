@@ -99,7 +99,7 @@ tcounted.rename(columns = {0:'valid_tiles'}, inplace=True)
 pen = validated[validated['validation'] == False].groupby(['user', 'validation']).size().reset_index()
 pen.rename(columns = {0:'penalty'}, inplace=True)
 
-tcounted = pd.merge(tcounted[['user','valid_tiles']], pen[['user', 'penalty']])
+tcounted = pd.merge(tcounted[['user','valid_tiles']], pen[['user', 'penalty']], on='user', how='left').fillna(0)
 
 tiles_leader = pd.merge(ap_us.reset_index(), tcounted[['user','valid_tiles','penalty']], on='user', how='left').set_index('user').sort_values(['valid_tiles','total_edits'], ascending=False)
 over40 = tiles_leader[tiles_leader['valid_tiles'] >= 40].sort_values('total_edits', ascending = False)

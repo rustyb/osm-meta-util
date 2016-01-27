@@ -93,7 +93,10 @@ validated['validation'] = validated['validation'].map(valid)
 tcounted = validated[validated['validation'] == True].groupby(['user', 'validation']).size().reset_index()
 tcounted.rename(columns = {0:'valid_tiles'}, inplace=True)
 
-tiles_leader = pd.merge(ap_us.reset_index(), tcounted[['user','valid_tiles']], on='user', how='left').set_index('user').sort_values(['total_edits', 'valid_tiles'], ascending=[False,True])
+tiles_leader = pd.merge(ap_us.reset_index(), tcounted[['user','valid_tiles']], on='user', how='left').set_index('user').sort_values(['valid_tiles','total_edits'], ascending=False)
+over40 = tiles_leader[tiles_leader['valid_tiles'] >= 40].sort_values('total_edits', ascending = False)
+under40 = tiles_leader[tiles_leader['valid_tiles'] < 40]
+tiles_leader = pd.concat(over40,under40)
 tiles_leader.fillna(0, inplace=True)
 
 tiles_leader.reset_index(inplace=True)

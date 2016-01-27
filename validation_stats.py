@@ -12,7 +12,9 @@ import pandas as pd
 import numpy as np
 import datetime
 
-
+pd.set_option('display.precision', 0)
+#pd.options.display.float_format = '${0:,.0f}'.format
+pd.set_option('display.float_format', '{0:,.0f}'.format)
 
 SCOPE = ["https://spreadsheets.google.com/feeds"]
 SECRETS_FILE = "MapLesothoStats-e1f6b35069cd.json"

@@ -63,7 +63,7 @@ lesa.set_index(lesa.timestamp, inplace=True)
 apus = pd.read_csv('data/competition_usernames.csv', header=None)
 print("Returning stats for %s APPS" % len(apus[1]))
 les_apps = lesa[lesa.user.isin(apus[1].values)]
-les_apps = les_apps[les_apps.index >= '2016-01-04 07:00:00']
+les_apps = les_apps['2016-01-04 07:00:00':'2016-01-29 22:00:00']
 
 app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
 ap_us = app_edits.unstack().fillna(0)
@@ -102,6 +102,7 @@ pen.rename(columns = {0:'penalty'}, inplace=True)
 tcounted = pd.merge(tcounted[['user','valid_tiles']], pen[['user', 'penalty']], on='user', how='left').fillna(0)
 
 tiles_leader = pd.merge(ap_us.reset_index(), tcounted[['user','valid_tiles','penalty']], on='user', how='left').set_index('user').sort_values(['valid_tiles','total_edits'], ascending=False)
+tiles_leader['final edit'] = tiles_leader['total_edits'] - (tiles_leader['total_edits'] * (tiles_leader['penalty']/100))
 over40 = tiles_leader[tiles_leader['valid_tiles'] >= 40].sort_values('total_edits', ascending = False)
 under40 = tiles_leader[tiles_leader['valid_tiles'] < 40]
 tiles_leader = pd.concat([over40,under40])

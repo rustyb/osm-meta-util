@@ -1,0 +1,582 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-12T17:20:08Z",
+    "lon": 28.266584,
+    "lat": -28.7669119,
+    "version": 2,
+    "id": 3133731119,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-12T17:20:36Z",
+    "lon": 27.9270055,
+    "lat": -28.8998656,
+    "version": 3,
+    "id": 3329374537,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-12T17:20:36Z",
+    "lon": 27.926802,
+    "lat": -28.8999501,
+    "version": 2,
+    "id": 3329374544,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-12T17:21:04Z",
+    "lon": 27.5553698,
+    "lat": -29.3641763,
+    "version": 3,
+    "id": 3639752323,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-12T17:20:53Z",
+    "lon": 27.4470341,
+    "lat": -29.3535061,
+    "version": 2,
+    "id": 3669344955,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-12T17:20:08Z",
+    "lon": 28.266584,
+    "lat": -28.7669119,
+    "version": 2,
+    "id": 3999471920,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-12T17:20:08Z",
+    "lon": 28.2666823,
+    "lat": -28.7668855,
+    "version": 2,
+    "id": 3999493359,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-12T17:20:36Z",
+    "lon": 27.9270704,
+    "lat": -28.8998208,
+    "version": 2,
+    "id": 3999534536,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:20:51Z",
+    "lon": 27.4471973,
+    "lat": -29.3533914,
+    "version": 1,
+    "id": 4002942798,
+    "user": "ratrun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:31:43Z",
+    "lon": 28.600433,
+    "lat": -29.2000082,
+    "version": 1,
+    "id": 4002954846,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:31:43Z",
+    "lon": 28.6005282,
+    "lat": -29.1998852,
+    "version": 1,
+    "id": 4002954847,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:31:43Z",
+    "lon": 28.6000655,
+    "lat": -29.1996909,
+    "version": 1,
+    "id": 4002954848,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:31:43Z",
+    "lon": 28.5998295,
+    "lat": -29.1997202,
+    "version": 1,
+    "id": 4002954849,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:33:47Z",
+    "lon": 28.6005505,
+    "lat": -29.1998714,
+    "version": 1,
+    "id": 4002956288,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:33:47Z",
+    "lon": 28.6006551,
+    "lat": -29.1997133,
+    "version": 1,
+    "id": 4002956689,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:33:47Z",
+    "lon": 28.6001817,
+    "lat": -29.1995729,
+    "version": 1,
+    "id": 4002956690,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:33:47Z",
+    "lon": 28.6000986,
+    "lat": -29.1995998,
+    "version": 1,
+    "id": 4002956691,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:33:47Z",
+    "lon": 28.6001066,
+    "lat": -29.1996794,
+    "version": 1,
+    "id": 4002956692,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:37:28Z",
+    "lon": 28.6015995,
+    "lat": -29.2005609,
+    "version": 1,
+    "id": 4002959857,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:37:28Z",
+    "lon": 28.6016746,
+    "lat": -29.2004017,
+    "version": 1,
+    "id": 4002959858,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:37:28Z",
+    "lon": 28.6015995,
+    "lat": -29.200294,
+    "version": 1,
+    "id": 4002959859,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:37:28Z",
+    "lon": 28.6011221,
+    "lat": -29.2001863,
+    "version": 1,
+    "id": 4002959860,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:37:28Z",
+    "lon": 28.6009397,
+    "lat": -29.2002285,
+    "version": 1,
+    "id": 4002959861,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:37:28Z",
+    "lon": 28.600827,
+    "lat": -29.2004017,
+    "version": 1,
+    "id": 4002959862,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:39:25Z",
+    "lon": 28.6012884,
+    "lat": -29.2022514,
+    "version": 1,
+    "id": 4002964120,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:39:25Z",
+    "lon": 28.6010738,
+    "lat": -29.2022186,
+    "version": 1,
+    "id": 4002964121,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:39:25Z",
+    "lon": 28.600945,
+    "lat": -29.2023029,
+    "version": 1,
+    "id": 4002964122,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:39:25Z",
+    "lon": 28.6010953,
+    "lat": -29.2023497,
+    "version": 1,
+    "id": 4002964123,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:39:25Z",
+    "lon": 28.6012991,
+    "lat": -29.2023357,
+    "version": 1,
+    "id": 4002964124,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5959991,
+    "lat": -29.1956136,
+    "version": 1,
+    "id": 4002969242,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5959669,
+    "lat": -29.1958266,
+    "version": 1,
+    "id": 4002969243,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5959937,
+    "lat": -29.1959578,
+    "version": 1,
+    "id": 4002969244,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5960795,
+    "lat": -29.1961287,
+    "version": 1,
+    "id": 4002969245,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5960017,
+    "lat": -29.1962364,
+    "version": 1,
+    "id": 4002969246,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5961037,
+    "lat": -29.1964705,
+    "version": 1,
+    "id": 4002969247,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5961922,
+    "lat": -29.1965384,
+    "version": 1,
+    "id": 4002969248,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5962083,
+    "lat": -29.1967515,
+    "version": 1,
+    "id": 4002969249,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5961439,
+    "lat": -29.1969177,
+    "version": 1,
+    "id": 4002969250,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5961493,
+    "lat": -29.1971261,
+    "version": 1,
+    "id": 4002969251,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5962458,
+    "lat": -29.1972502,
+    "version": 1,
+    "id": 4002969252,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5964309,
+    "lat": -29.1972221,
+    "version": 1,
+    "id": 4002969253,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.596565,
+    "lat": -29.197365,
+    "version": 1,
+    "id": 4002969254,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5967286,
+    "lat": -29.1975523,
+    "version": 1,
+    "id": 4002969255,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.596903,
+    "lat": -29.1975546,
+    "version": 1,
+    "id": 4002969256,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5970639,
+    "lat": -29.197578,
+    "version": 1,
+    "id": 4002969257,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5972195,
+    "lat": -29.197674,
+    "version": 1,
+    "id": 4002969258,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5974019,
+    "lat": -29.1977021,
+    "version": 1,
+    "id": 4002969259,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5975306,
+    "lat": -29.1977279,
+    "version": 1,
+    "id": 4002969260,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5976272,
+    "lat": -29.1976764,
+    "version": 1,
+    "id": 4002969261,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5974743,
+    "lat": -29.1975897,
+    "version": 1,
+    "id": 4002969262,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5973402,
+    "lat": -29.197557,
+    "version": 1,
+    "id": 4002969263,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5971658,
+    "lat": -29.1974469,
+    "version": 1,
+    "id": 4002969264,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.597021,
+    "lat": -29.197379,
+    "version": 1,
+    "id": 4002969265,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.59686,
+    "lat": -29.1973486,
+    "version": 1,
+    "id": 4002969266,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5966937,
+    "lat": -29.1972385,
+    "version": 1,
+    "id": 4002969267,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5966026,
+    "lat": -29.197077,
+    "version": 1,
+    "id": 4002969268,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5965275,
+    "lat": -29.1969529,
+    "version": 1,
+    "id": 4002969269,
+    "user": "Molibeli Ntlaba"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-12T17:46:05Z",
+    "lon": 28.5964761,
+    "lat": -29.1968226,
+    "version": 1,
+    "id": 4002969270,
+    "user": "Molibeli Ntlaba"
+  }
+]

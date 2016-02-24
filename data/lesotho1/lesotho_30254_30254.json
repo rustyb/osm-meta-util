@@ -1,0 +1,622 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5153154,
+    "lat": -29.295497,
+    "version": 4,
+    "id": 2771183087,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5153769,
+    "lat": -29.2954933,
+    "version": 4,
+    "id": 2771183088,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5153834,
+    "lat": -29.2955752,
+    "version": 4,
+    "id": 2771183089,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5153219,
+    "lat": -29.2955789,
+    "version": 4,
+    "id": 2771183092,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.518113,
+    "lat": -29.2911919,
+    "version": 4,
+    "id": 2771947617,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5194976,
+    "lat": -29.2925653,
+    "version": 4,
+    "id": 2771985219,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5197842,
+    "lat": -29.2936436,
+    "version": 3,
+    "id": 2772028893,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:33:23Z",
+    "lon": 27.5196926,
+    "lat": -29.2937132,
+    "version": 3,
+    "id": 2772028895,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4658863,
+    "lat": -29.3390959,
+    "version": 3,
+    "id": 3008912172,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4658206,
+    "lat": -29.3391528,
+    "version": 3,
+    "id": 3008912201,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.465952,
+    "lat": -29.3391534,
+    "version": 3,
+    "id": 3008912202,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4658497,
+    "lat": -29.339184,
+    "version": 4,
+    "id": 3008912231,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.465886,
+    "lat": -29.3392174,
+    "version": 4,
+    "id": 3008912360,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4657203,
+    "lat": -29.3392922,
+    "version": 4,
+    "id": 3008912391,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4657559,
+    "lat": -29.3393238,
+    "version": 4,
+    "id": 3008912414,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4674652,
+    "lat": -29.3402168,
+    "version": 2,
+    "id": 3008912972,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4681354,
+    "lat": -29.3402564,
+    "version": 3,
+    "id": 3008912991,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4674821,
+    "lat": -29.3402583,
+    "version": 2,
+    "id": 3008912995,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4672822,
+    "lat": -29.3402734,
+    "version": 2,
+    "id": 3008913001,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4680496,
+    "lat": -29.3402957,
+    "version": 3,
+    "id": 3008913008,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4676684,
+    "lat": -29.3403212,
+    "version": 3,
+    "id": 3008913010,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4672991,
+    "lat": -29.340315,
+    "version": 2,
+    "id": 3008913015,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.468187,
+    "lat": -29.3403366,
+    "version": 3,
+    "id": 3008913021,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4676121,
+    "lat": -29.3403505,
+    "version": 3,
+    "id": 3008913024,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4676943,
+    "lat": -29.340359,
+    "version": 3,
+    "id": 3008913027,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4675827,
+    "lat": -29.3403877,
+    "version": 3,
+    "id": 3008913040,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.467638,
+    "lat": -29.3403883,
+    "version": 3,
+    "id": 3008913041,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4672244,
+    "lat": -29.3404066,
+    "version": 2,
+    "id": 3008913050,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4676061,
+    "lat": -29.3404215,
+    "version": 3,
+    "id": 3008913052,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4682316,
+    "lat": -29.3404161,
+    "version": 3,
+    "id": 3008913054,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4678958,
+    "lat": -29.3404249,
+    "version": 3,
+    "id": 3008913056,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.467509,
+    "lat": -29.3404264,
+    "version": 3,
+    "id": 3008913057,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4678525,
+    "lat": -29.3404438,
+    "version": 3,
+    "id": 3008913062,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4675324,
+    "lat": -29.3404602,
+    "version": 3,
+    "id": 3008913068,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4681458,
+    "lat": -29.3404553,
+    "version": 3,
+    "id": 3008913069,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4679203,
+    "lat": -29.3404676,
+    "version": 3,
+    "id": 3008913071,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.467877,
+    "lat": -29.3404865,
+    "version": 3,
+    "id": 3008913076,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4671789,
+    "lat": -29.3404812,
+    "version": 2,
+    "id": 3008913082,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4674096,
+    "lat": -29.3404925,
+    "version": 2,
+    "id": 3008913087,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4673641,
+    "lat": -29.3405671,
+    "version": 2,
+    "id": 3008913107,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4669773,
+    "lat": -29.3411446,
+    "version": 2,
+    "id": 3008913659,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4670699,
+    "lat": -29.3411887,
+    "version": 2,
+    "id": 3008913681,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4669221,
+    "lat": -29.3412226,
+    "version": 2,
+    "id": 3008913695,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4671229,
+    "lat": -29.3412229,
+    "version": 2,
+    "id": 3008913696,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.46702,
+    "lat": -29.341268,
+    "version": 2,
+    "id": 3008913712,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4670677,
+    "lat": -29.3413009,
+    "version": 2,
+    "id": 3008913723,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4684501,
+    "lat": -29.3405055,
+    "version": 2,
+    "id": 4021622303,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4684895,
+    "lat": -29.3404982,
+    "version": 2,
+    "id": 4021622304,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4684637,
+    "lat": -29.3403934,
+    "version": 2,
+    "id": 4021622305,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4684244,
+    "lat": -29.3404007,
+    "version": 2,
+    "id": 4021622306,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4676292,
+    "lat": -29.3405432,
+    "version": 2,
+    "id": 4021622307,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.467869,
+    "lat": -29.3403578,
+    "version": 2,
+    "id": 4021622308,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4678074,
+    "lat": -29.3402973,
+    "version": 2,
+    "id": 4021622309,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4675676,
+    "lat": -29.3404827,
+    "version": 2,
+    "id": 4021622310,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4683507,
+    "lat": -29.3403875,
+    "version": 2,
+    "id": 4021622311,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4684067,
+    "lat": -29.3403522,
+    "version": 2,
+    "id": 4021622312,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4683841,
+    "lat": -29.340325,
+    "version": 2,
+    "id": 4021622313,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-02-24T20:11:35Z",
+    "lon": 27.4683282,
+    "lat": -29.3403603,
+    "version": 2,
+    "id": 4021622314,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4658411,
+    "lat": -29.3391887,
+    "version": 1,
+    "id": 4024214271,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4658862,
+    "lat": -29.3392104,
+    "version": 1,
+    "id": 4024214272,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-24T20:09:30Z",
+    "lon": 27.4658768,
+    "lat": -29.3392204,
+    "version": 1,
+    "id": 4024214273,
+    "user": "RAytoun"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-02-24T20:33:22Z",
+    "lon": 27.5187605,
+    "lat": -29.2931716,
+    "version": 1,
+    "id": 4024249345,
+    "user": "RAytoun"
+  }
+]

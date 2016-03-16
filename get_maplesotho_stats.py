@@ -58,9 +58,9 @@ def check_empty_files(files):
     if len(to_delete) > 0:
 	    os.system('rm %s' % to_delete)
 
-jn =  'data/lesotho1/' + filename
+jn =  './data/lesotho1/' + filename
 print('JSON FILE: %s' % jn)
-check_empty_files(jn)
+#check_empty_files(jn)
 
 
 ###### add file to db

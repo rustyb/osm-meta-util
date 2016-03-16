@@ -9,10 +9,14 @@ import numpy as np
 #import plotly.plotly as py
 import datetime
 
+from sqlalchemy import create_engine
+engine = create_engine("sqlite:///db/leaderboard2.db", echo=True, convert_unicode=True)
+
+
 #pd.options.display.mpl_style = 'default' # set styles to nice colours for graphs
 
 # read files in data folder for existing files:
-def read_json_files(place="lesotho"):
+"""def read_json_files(place="lesotho"):
     wd0 = 'data/'
     if place == 'lesotho':
         wd = wd0 + 'lesotho1/'
@@ -26,10 +30,10 @@ def read_json_files(place="lesotho"):
         return json_files
     else:
         #sys.exit("make sure that json.new files exist in the data/lesotho directory.")
-        print("fcheck failes")
+        print("fcheck failes")"""
 
 # read files in data folder for existing files:
-def read_files(place="lesotho"):
+"""def read_files(place="lesotho"):
     wd0 = 'data/'
     if place == 'lesotho':
         wd = wd0 + 'lesotho/'
@@ -42,10 +46,10 @@ def read_files(place="lesotho"):
         print('Found %s geojson.new files in directory...' % len(json_files))
     else:
         sys.exit("make sure that json.new files exist in the data/lesotho directory.")
-    return json_files
+    return json_files"""
     
 
-dfiles_h = read_json_files()
+"""dfiles_h = read_json_files()
 dfiles_d = read_files() # read old daily
 
 
@@ -69,29 +73,34 @@ les_hourly = []
 for f in dfiles_h:
     les_hourly.append(pd.read_json(f))
 
-lesh = pd.concat(les_hourly)
+lesh = pd.concat(les_hourly)"""
 # fix the naming of columns so they're the same
-lesh = lesh.rename(columns = {'id':'changeset'})
+#lesh = lesh.rename(columns = {'id':'changeset'})
 #lesd = pd.concat(les_daily)
 
-lesa = lesh
-print("Dataframe with %s rows x %s columns" % (lesa.shape[0], lesa.shape[1]))
+#lesa = lesh
+#print("Dataframe with %s rows x %s columns" % (lesa.shape[0], lesa.shape[1]))
 
-lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
+#lesa.timestamp = pd.to_datetime(lesa['timestamp']) # convert timestamp to date time index
 # data cleaning, set all 'Miss O' to 'Mpaleng Oliphant'
 #lesa.replace(['Miss O', 'The Big C'], ['Mpaleng Oliphant', 'DeBigC'], inplace=True)
 
-lesa.set_index(lesa.timestamp, inplace=True)
-les_apps = lesa[lesa.index > '01-01-2015']
+#lesa.set_index(lesa.timestamp, inplace=True)
+#les_apps = lesa[lesa.index > '01-01-2015']
 ## get planner stats
 #apus = pd.read_csv('data/lesotho/app_unames.csv')
 #apps = apus.username[apus.is_app == 'Y']
 
-app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
-ap_us = app_edits.unstack().fillna(0)
+xx = pd.read_sql("SELECT user, type, count(*) as edit_count from changesets where timestamp >= '2015-01-01' group by user, type order by user", engine)
+edits = xx.groupby(['type', 'user']).sum().unstack().T
+ap_us = edits.reset_index().set_index('user')[['create', 'delete', 'modify']].fillna(0)
+
+
+#app_edits = les_apps[['user', 'type']].groupby(['user','type']).size()
+#ap_us = app_edits.unstack().fillna(0)
 ap_us['total_edits'] = ap_us.sum(axis=1) 
 
-ap_us = pd.concat([leaderbord.reset_index(), ap_us.reset_index()]).groupby('user').sum()
+#ap_us = pd.concat([leaderbord.reset_index(), ap_us.reset_index()]).groupby('user').sum()
 
 
 total_rank = ap_us.sort('total_edits', ascending=False).reset_index()
@@ -100,8 +109,8 @@ total_rank = ap_us.sort('total_edits', ascending=False).reset_index()
 #les_apps.drop('name', axis=1, inplace=True) # drop column with name: [way,node]
 #les_apps = les_apps[les_apps['name'] != 'way'] # remove all the ways
 #les_apps = lesa.rename(columns = {'id':'changeset'})
-min_ts = str(les_apps.index.min())
-max_ts = str(les_apps.index.max())
+min_ts = 'test'#str(les_apps.index.min())
+max_ts = 'test'#str(les_apps.index.max())
 #total = les_apps.groupby(['user']).resample('A', how='count')[['changeset']].reset_index()
 #total_rank = pd.DataFrame(total[['user','changeset']]).sort('changeset', ascending=False)
 total_rank.index = np.arange(1, len(total_rank)+1)
@@ -112,7 +121,7 @@ table = table.replace('<table  class="dataframe">', '<table class="dataframe" al
 table = table.replace('<th></th>', '<th>Rank</th>')
 table = table.replace('<th>changeset</th>', '<th>Total Edits</th>')
 
-leaderboard = ap_us
+#leaderboard = ap_us
 
 html_string = '''
 <!DOCTYPE html>

@@ -62,6 +62,63 @@ jn =  'data/lesotho1/' + filename
 print('JSON FILE: %s' % jn)
 check_empty_files(jn)
 
+
+###### add file to db
+from datetime import datetime
+import os, sys, json
+
+from sqlalchemy import create_engine
+engine = create_engine("sqlite:///db/leaderboard2.db", echo=False, convert_unicode=True)
+
+from sqlalchemy.ext.declarative import declarative_base
+Base = declarative_base()
+
+from sqlalchemy.orm import sessionmaker
+DBSession = sessionmaker(bind=engine)
+
+from sqlalchemy import Column
+from sqlalchemy import Date
+from sqlalchemy import DateTime
+from sqlalchemy import Integer
+from sqlalchemy import Float
+from sqlalchemy import String
+
+
+
+class Changeset(Base):
+    __tablename__ = "changesets"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    type = Column(String)
+    timestamp = Column(DateTime)
+    lon = Column(Float)
+    lat = Column(Float)
+    version = Column(Integer)
+    user = Column(String)	
+
+
+
+session = DBSession()
+with open(jn) as json_file:
+	json_data = json.load(json_file)
+	print('Adding %s to db' % jn)
+	for i in json_data:
+	    if 'name' in i:
+	        name = i['name']
+	    else:
+	        name = 'node'
+	    if 'lat' in i:
+	        lat = i['lat']
+	        lon = i['lon']
+	    else:
+	        lat = None
+	        lon = None
+	    session.merge(Changeset(id=i['id'], name=name, type=i['type'], timestamp=datetime.strptime(i['timestamp'], "%Y-%m-%dT%H:%M:%SZ"), user = i['user'], lat=lat, lon=lon, version=i['version']))   
+	session.commit()
+
+
+
 if stats:
 	print("Begin pandas analysis...\n")
 	os.system("/usr/bin/python3 get_monthly_stats.py")

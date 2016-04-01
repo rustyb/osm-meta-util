@@ -1,0 +1,4042 @@
+[
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0414034,
+    "lat": -29.1715697,
+    "version": 4,
+    "id": 2825446285,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0416305,
+    "lat": -29.1716319,
+    "version": 4,
+    "id": 2825446286,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0412465,
+    "lat": -29.1716946,
+    "version": 4,
+    "id": 2825446287,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0411416,
+    "lat": -29.1718854,
+    "version": 4,
+    "id": 2825446293,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0474348,
+    "lat": -29.1722023,
+    "version": 4,
+    "id": 3672966346,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7737166,
+    "lat": -28.970375,
+    "version": 3,
+    "id": 3699743354,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7736814,
+    "lat": -28.9704213,
+    "version": 3,
+    "id": 3699743355,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7736515,
+    "lat": -28.9704038,
+    "version": 3,
+    "id": 3699743356,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.773613,
+    "lat": -28.9704544,
+    "version": 3,
+    "id": 3699743357,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7737294,
+    "lat": -28.9705223,
+    "version": 3,
+    "id": 3699743358,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7738032,
+    "lat": -28.9704255,
+    "version": 3,
+    "id": 3699743359,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7739301,
+    "lat": -28.9703125,
+    "version": 2,
+    "id": 3699743378,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7739199,
+    "lat": -28.9703009,
+    "version": 2,
+    "id": 3699743379,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7738965,
+    "lat": -28.9703018,
+    "version": 2,
+    "id": 3699743380,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7738813,
+    "lat": -28.9703143,
+    "version": 2,
+    "id": 3699743381,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7738752,
+    "lat": -28.9703392,
+    "version": 2,
+    "id": 3699743382,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7738975,
+    "lat": -28.9703463,
+    "version": 2,
+    "id": 3699743383,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7739148,
+    "lat": -28.9703445,
+    "version": 2,
+    "id": 3699743384,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.773926,
+    "lat": -28.9703347,
+    "version": 2,
+    "id": 3699743385,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739721,
+    "lat": -28.9702564,
+    "version": 2,
+    "id": 3699743386,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7739535,
+    "lat": -28.9703,
+    "version": 2,
+    "id": 3699743387,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7739898,
+    "lat": -28.9703119,
+    "version": 2,
+    "id": 3699743388,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7740085,
+    "lat": -28.9702684,
+    "version": 2,
+    "id": 3699743389,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.774457,
+    "lat": -28.9701598,
+    "version": 3,
+    "id": 3699743406,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.774441,
+    "lat": -28.9701563,
+    "version": 3,
+    "id": 3699743407,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.774433,
+    "lat": -28.9701583,
+    "version": 3,
+    "id": 3699743408,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7744263,
+    "lat": -28.9701626,
+    "version": 3,
+    "id": 3699743409,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.774437,
+    "lat": -28.9701975,
+    "version": 3,
+    "id": 3699743410,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7744519,
+    "lat": -28.970197,
+    "version": 3,
+    "id": 3699743411,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7744585,
+    "lat": -28.9701938,
+    "version": 3,
+    "id": 3699743412,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.774734,
+    "lat": -28.9698609,
+    "version": 2,
+    "id": 3699743417,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7747257,
+    "lat": -28.9698591,
+    "version": 2,
+    "id": 3699743418,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7747172,
+    "lat": -28.9698599,
+    "version": 2,
+    "id": 3699743419,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7747095,
+    "lat": -28.969863,
+    "version": 2,
+    "id": 3699743420,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7747118,
+    "lat": -28.9699007,
+    "version": 2,
+    "id": 3699743421,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7747195,
+    "lat": -28.969903,
+    "version": 2,
+    "id": 3699743422,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7747276,
+    "lat": -28.9699032,
+    "version": 2,
+    "id": 3699743423,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.7747354,
+    "lat": -28.969901,
+    "version": 2,
+    "id": 3699743424,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:28Z",
+    "lon": 27.774742,
+    "lat": -28.9698968,
+    "version": 2,
+    "id": 3699743625,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0449646,
+    "lat": -29.1721194,
+    "version": 4,
+    "id": 3712727751,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0449121,
+    "lat": -29.1721538,
+    "version": 4,
+    "id": 3712727752,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0449979,
+    "lat": -29.1721582,
+    "version": 4,
+    "id": 3712727753,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0449454,
+    "lat": -29.1721926,
+    "version": 4,
+    "id": 3712727761,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0405747,
+    "lat": -29.1715382,
+    "version": 2,
+    "id": 3719172085,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450321,
+    "lat": -29.1721693,
+    "version": 2,
+    "id": 3723374891,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0449862,
+    "lat": -29.1722095,
+    "version": 2,
+    "id": 3723374892,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0449916,
+    "lat": -29.1722183,
+    "version": 2,
+    "id": 3723374893,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450208,
+    "lat": -29.1721676,
+    "version": 2,
+    "id": 3723374894,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450094,
+    "lat": -29.1721691,
+    "version": 2,
+    "id": 3723374895,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0449991,
+    "lat": -29.1721736,
+    "version": 2,
+    "id": 3723374896,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.044991,
+    "lat": -29.1721807,
+    "version": 2,
+    "id": 3723374897,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0449858,
+    "lat": -29.1721896,
+    "version": 2,
+    "id": 3723374898,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0449842,
+    "lat": -29.1721996,
+    "version": 2,
+    "id": 3723374899,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.045,
+    "lat": -29.1722252,
+    "version": 2,
+    "id": 3723374900,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450112,
+    "lat": -29.1722296,
+    "version": 2,
+    "id": 3723374901,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450235,
+    "lat": -29.1722305,
+    "version": 2,
+    "id": 3723374902,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450354,
+    "lat": -29.1722277,
+    "version": 2,
+    "id": 3723374903,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450455,
+    "lat": -29.1722216,
+    "version": 2,
+    "id": 3723374904,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450527,
+    "lat": -29.1722129,
+    "version": 2,
+    "id": 3723374905,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450561,
+    "lat": -29.1722026,
+    "version": 2,
+    "id": 3723374906,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450554,
+    "lat": -29.1721919,
+    "version": 2,
+    "id": 3723374907,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450506,
+    "lat": -29.172182,
+    "version": 2,
+    "id": 3723374908,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:58Z",
+    "lon": 28.0450422,
+    "lat": -29.1721741,
+    "version": 2,
+    "id": 3723374909,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452343,
+    "lat": -29.1717212,
+    "version": 2,
+    "id": 3723374910,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451678,
+    "lat": -29.1718174,
+    "version": 2,
+    "id": 3723374911,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451856,
+    "lat": -29.1718297,
+    "version": 2,
+    "id": 3723374912,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.045213,
+    "lat": -29.1717195,
+    "version": 2,
+    "id": 3723374913,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451922,
+    "lat": -29.1717238,
+    "version": 2,
+    "id": 3723374914,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.045174,
+    "lat": -29.1717335,
+    "version": 2,
+    "id": 3723374915,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451602,
+    "lat": -29.1717478,
+    "version": 2,
+    "id": 3723374916,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451522,
+    "lat": -29.1717651,
+    "version": 2,
+    "id": 3723374917,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451508,
+    "lat": -29.1717837,
+    "version": 2,
+    "id": 3723374918,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0451562,
+    "lat": -29.1718017,
+    "version": 2,
+    "id": 3723374919,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452071,
+    "lat": -29.1718361,
+    "version": 2,
+    "id": 3723374920,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452298,
+    "lat": -29.1718359,
+    "version": 2,
+    "id": 3723374921,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452511,
+    "lat": -29.1718291,
+    "version": 2,
+    "id": 3723374922,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452687,
+    "lat": -29.1718165,
+    "version": 2,
+    "id": 3723374923,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452804,
+    "lat": -29.1717995,
+    "version": 2,
+    "id": 3723374924,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.045285,
+    "lat": -29.1717801,
+    "version": 2,
+    "id": 3723374925,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452819,
+    "lat": -29.1717605,
+    "version": 2,
+    "id": 3723374926,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.0452715,
+    "lat": -29.1717428,
+    "version": 2,
+    "id": 3723374927,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:02Z",
+    "lon": 28.045255,
+    "lat": -29.1717292,
+    "version": 2,
+    "id": 3723374928,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469232,
+    "lat": -29.1728534,
+    "version": 2,
+    "id": 3723382438,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468734,
+    "lat": -29.1729045,
+    "version": 2,
+    "id": 3723382439,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468803,
+    "lat": -29.1729154,
+    "version": 2,
+    "id": 3723382440,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469078,
+    "lat": -29.1728534,
+    "version": 2,
+    "id": 3723382441,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468934,
+    "lat": -29.1728579,
+    "version": 2,
+    "id": 3723382442,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468815,
+    "lat": -29.1728665,
+    "version": 2,
+    "id": 3723382443,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468737,
+    "lat": -29.172878,
+    "version": 2,
+    "id": 3723382444,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468709,
+    "lat": -29.1728912,
+    "version": 2,
+    "id": 3723382445,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0468907,
+    "lat": -29.172924,
+    "version": 2,
+    "id": 3723382446,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469037,
+    "lat": -29.1729291,
+    "version": 2,
+    "id": 3723382447,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.046918,
+    "lat": -29.1729304,
+    "version": 2,
+    "id": 3723382448,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469319,
+    "lat": -29.1729277,
+    "version": 2,
+    "id": 3723382449,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469442,
+    "lat": -29.1729212,
+    "version": 2,
+    "id": 3723382450,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469535,
+    "lat": -29.1729117,
+    "version": 2,
+    "id": 3723382451,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469588,
+    "lat": -29.1729002,
+    "version": 2,
+    "id": 3723382452,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469596,
+    "lat": -29.1728877,
+    "version": 2,
+    "id": 3723382453,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469559,
+    "lat": -29.1728756,
+    "version": 2,
+    "id": 3723382454,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.046948,
+    "lat": -29.1728652,
+    "version": 2,
+    "id": 3723382455,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0469367,
+    "lat": -29.1728576,
+    "version": 2,
+    "id": 3723382456,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466774,
+    "lat": -29.1731622,
+    "version": 2,
+    "id": 3723382457,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466418,
+    "lat": -29.1731942,
+    "version": 2,
+    "id": 3723382458,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466455,
+    "lat": -29.1732028,
+    "version": 2,
+    "id": 3723382459,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466675,
+    "lat": -29.1731622,
+    "version": 2,
+    "id": 3723382460,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.046658,
+    "lat": -29.1731649,
+    "version": 2,
+    "id": 3723382461,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466501,
+    "lat": -29.1731701,
+    "version": 2,
+    "id": 3723382462,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466444,
+    "lat": -29.1731772,
+    "version": 2,
+    "id": 3723382463,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466415,
+    "lat": -29.1731856,
+    "version": 2,
+    "id": 3723382464,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466521,
+    "lat": -29.1732098,
+    "version": 2,
+    "id": 3723382465,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466611,
+    "lat": -29.1732145,
+    "version": 2,
+    "id": 3723382466,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466713,
+    "lat": -29.1732164,
+    "version": 2,
+    "id": 3723382467,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466817,
+    "lat": -29.1732152,
+    "version": 2,
+    "id": 3723382468,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.046691,
+    "lat": -29.1732111,
+    "version": 2,
+    "id": 3723382469,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466982,
+    "lat": -29.1732045,
+    "version": 2,
+    "id": 3723382470,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0467026,
+    "lat": -29.1731963,
+    "version": 2,
+    "id": 3723382471,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0467037,
+    "lat": -29.1731872,
+    "version": 2,
+    "id": 3723382472,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0467012,
+    "lat": -29.1731784,
+    "version": 2,
+    "id": 3723382473,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466955,
+    "lat": -29.1731707,
+    "version": 2,
+    "id": 3723382474,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:13:59Z",
+    "lon": 28.0466873,
+    "lat": -29.1731651,
+    "version": 2,
+    "id": 3723382475,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473951,
+    "lat": -29.1729593,
+    "version": 2,
+    "id": 3723382476,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.047356,
+    "lat": -29.1730066,
+    "version": 2,
+    "id": 3723382477,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473635,
+    "lat": -29.1730162,
+    "version": 2,
+    "id": 3723382478,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473835,
+    "lat": -29.1729597,
+    "version": 2,
+    "id": 3723382479,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473726,
+    "lat": -29.1729631,
+    "version": 2,
+    "id": 3723382480,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473634,
+    "lat": -29.1729691,
+    "version": 2,
+    "id": 3723382481,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473566,
+    "lat": -29.1729773,
+    "version": 2,
+    "id": 3723382482,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.047353,
+    "lat": -29.1729869,
+    "version": 2,
+    "id": 3723382483,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473527,
+    "lat": -29.172997,
+    "version": 2,
+    "id": 3723382484,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473744,
+    "lat": -29.1730229,
+    "version": 2,
+    "id": 3723382485,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473871,
+    "lat": -29.173026,
+    "version": 2,
+    "id": 3723382486,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474004,
+    "lat": -29.1730251,
+    "version": 2,
+    "id": 3723382487,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474125,
+    "lat": -29.1730203,
+    "version": 2,
+    "id": 3723382488,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.047422,
+    "lat": -29.1730122,
+    "version": 2,
+    "id": 3723382489,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474278,
+    "lat": -29.1730018,
+    "version": 2,
+    "id": 3723382490,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474291,
+    "lat": -29.1729902,
+    "version": 2,
+    "id": 3723382491,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474259,
+    "lat": -29.172979,
+    "version": 2,
+    "id": 3723382492,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474185,
+    "lat": -29.1729694,
+    "version": 2,
+    "id": 3723382493,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474078,
+    "lat": -29.1729625,
+    "version": 2,
+    "id": 3723382494,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474203,
+    "lat": -29.1730544,
+    "version": 2,
+    "id": 3723382495,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0473469,
+    "lat": -29.1730959,
+    "version": 2,
+    "id": 3723382496,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0473484,
+    "lat": -29.1731126,
+    "version": 2,
+    "id": 3723382497,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474039,
+    "lat": -29.1730519,
+    "version": 2,
+    "id": 3723382498,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0473874,
+    "lat": -29.1730537,
+    "version": 2,
+    "id": 3723382499,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0473722,
+    "lat": -29.1730597,
+    "version": 2,
+    "id": 3723382500,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0473597,
+    "lat": -29.1730694,
+    "version": 2,
+    "id": 3723382501,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0473511,
+    "lat": -29.1730818,
+    "version": 2,
+    "id": 3723382502,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473562,
+    "lat": -29.173128,
+    "version": 2,
+    "id": 3723382503,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473695,
+    "lat": -29.1731401,
+    "version": 2,
+    "id": 3723382504,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0473867,
+    "lat": -29.1731476,
+    "version": 2,
+    "id": 3723382505,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474058,
+    "lat": -29.1731495,
+    "version": 2,
+    "id": 3723382506,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474245,
+    "lat": -29.1731457,
+    "version": 2,
+    "id": 3723382507,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:03Z",
+    "lon": 28.0474407,
+    "lat": -29.1731366,
+    "version": 2,
+    "id": 3723382508,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474523,
+    "lat": -29.1731232,
+    "version": 2,
+    "id": 3723382509,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474581,
+    "lat": -29.1731072,
+    "version": 2,
+    "id": 3723382510,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474573,
+    "lat": -29.1730904,
+    "version": 2,
+    "id": 3723382511,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474501,
+    "lat": -29.1730749,
+    "version": 2,
+    "id": 3723382512,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0474373,
+    "lat": -29.1730624,
+    "version": 2,
+    "id": 3723382513,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482457,
+    "lat": -29.1751742,
+    "version": 2,
+    "id": 3723387108,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481862,
+    "lat": -29.1752229,
+    "version": 2,
+    "id": 3723387109,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481928,
+    "lat": -29.1752353,
+    "version": 2,
+    "id": 3723387110,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482317,
+    "lat": -29.1751721,
+    "version": 2,
+    "id": 3723387111,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482176,
+    "lat": -29.1751737,
+    "version": 2,
+    "id": 3723387112,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482048,
+    "lat": -29.175179,
+    "version": 2,
+    "id": 3723387113,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481944,
+    "lat": -29.1751875,
+    "version": 2,
+    "id": 3723387114,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481874,
+    "lat": -29.1751983,
+    "version": 2,
+    "id": 3723387115,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481846,
+    "lat": -29.1752105,
+    "version": 2,
+    "id": 3723387116,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482039,
+    "lat": -29.1752451,
+    "version": 2,
+    "id": 3723387117,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482181,
+    "lat": -29.1752511,
+    "version": 2,
+    "id": 3723387118,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482338,
+    "lat": -29.1752526,
+    "version": 2,
+    "id": 3723387119,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482491,
+    "lat": -29.1752493,
+    "version": 2,
+    "id": 3723387120,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482623,
+    "lat": -29.1752418,
+    "version": 2,
+    "id": 3723387121,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482718,
+    "lat": -29.1752308,
+    "version": 2,
+    "id": 3723387122,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482765,
+    "lat": -29.1752177,
+    "version": 2,
+    "id": 3723387123,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482759,
+    "lat": -29.1752039,
+    "version": 2,
+    "id": 3723387124,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.04827,
+    "lat": -29.1751912,
+    "version": 2,
+    "id": 3723387125,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482595,
+    "lat": -29.1751809,
+    "version": 2,
+    "id": 3723387126,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482638,
+    "lat": -29.1752864,
+    "version": 2,
+    "id": 3723387127,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.0481892,
+    "lat": -29.1752868,
+    "version": 2,
+    "id": 3723387128,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.0481842,
+    "lat": -29.1752982,
+    "version": 2,
+    "id": 3723387129,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.048254,
+    "lat": -29.1752765,
+    "version": 2,
+    "id": 3723387130,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.048241,
+    "lat": -29.1752702,
+    "version": 2,
+    "id": 3723387131,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.0482264,
+    "lat": -29.175268,
+    "version": 2,
+    "id": 3723387132,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.0482117,
+    "lat": -29.1752703,
+    "version": 2,
+    "id": 3723387133,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:05Z",
+    "lon": 28.0481988,
+    "lat": -29.1752769,
+    "version": 2,
+    "id": 3723387134,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481837,
+    "lat": -29.1753104,
+    "version": 2,
+    "id": 3723387135,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481876,
+    "lat": -29.1753221,
+    "version": 2,
+    "id": 3723387136,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0481955,
+    "lat": -29.1753321,
+    "version": 2,
+    "id": 3723387137,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482067,
+    "lat": -29.1753394,
+    "version": 2,
+    "id": 3723387138,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.04822,
+    "lat": -29.1753432,
+    "version": 2,
+    "id": 3723387139,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482339,
+    "lat": -29.1753431,
+    "version": 2,
+    "id": 3723387140,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482471,
+    "lat": -29.1753391,
+    "version": 2,
+    "id": 3723387141,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482582,
+    "lat": -29.1753317,
+    "version": 2,
+    "id": 3723387142,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.048266,
+    "lat": -29.1753216,
+    "version": 2,
+    "id": 3723387143,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.0482697,
+    "lat": -29.1753099,
+    "version": 2,
+    "id": 3723387144,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "delete",
+    "timestamp": "2016-04-01T10:14:04Z",
+    "lon": 28.048269,
+    "lat": -29.1752977,
+    "version": 2,
+    "id": 3723387145,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7744494,
+    "lat": -28.9701568,
+    "version": 2,
+    "id": 3927944795,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7744445,
+    "lat": -28.9701983,
+    "version": 2,
+    "id": 3927944798,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "modify",
+    "timestamp": "2016-04-01T10:17:27Z",
+    "lon": 27.7744302,
+    "lat": -28.9701947,
+    "version": 2,
+    "id": 3927944799,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.04011,
+    "lat": -29.1715469,
+    "version": 1,
+    "id": 4089713997,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0400442,
+    "lat": -29.1716435,
+    "version": 1,
+    "id": 4089713998,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0400205,
+    "lat": -29.1717493,
+    "version": 1,
+    "id": 4089713999,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0400231,
+    "lat": -29.1719333,
+    "version": 1,
+    "id": 4089714000,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0399625,
+    "lat": -29.1720161,
+    "version": 1,
+    "id": 4089714001,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0399836,
+    "lat": -29.1721426,
+    "version": 1,
+    "id": 4089714002,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0404857,
+    "lat": -29.1717898,
+    "version": 1,
+    "id": 4089714003,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0411667,
+    "lat": -29.1719447,
+    "version": 1,
+    "id": 4089714004,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0411598,
+    "lat": -29.1717808,
+    "version": 1,
+    "id": 4089714005,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0415407,
+    "lat": -29.1716031,
+    "version": 1,
+    "id": 4089714006,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.041472,
+    "lat": -29.1715565,
+    "version": 1,
+    "id": 4089714007,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.044639,
+    "lat": -29.1717341,
+    "version": 1,
+    "id": 4089714008,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446774,
+    "lat": -29.171738,
+    "version": 1,
+    "id": 4089714009,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446793,
+    "lat": -29.1717442,
+    "version": 1,
+    "id": 4089714010,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446447,
+    "lat": -29.1717296,
+    "version": 1,
+    "id": 4089714011,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446518,
+    "lat": -29.171727,
+    "version": 1,
+    "id": 4089714012,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446595,
+    "lat": -29.1717266,
+    "version": 1,
+    "id": 4089714013,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446668,
+    "lat": -29.1717285,
+    "version": 1,
+    "id": 4089714014,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.044673,
+    "lat": -29.1717325,
+    "version": 1,
+    "id": 4089714015,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446789,
+    "lat": -29.1717505,
+    "version": 1,
+    "id": 4089714016,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446761,
+    "lat": -29.1717565,
+    "version": 1,
+    "id": 4089714017,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446714,
+    "lat": -29.1717613,
+    "version": 1,
+    "id": 4089714018,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446651,
+    "lat": -29.1717646,
+    "version": 1,
+    "id": 4089714019,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446579,
+    "lat": -29.1717659,
+    "version": 1,
+    "id": 4089714020,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446506,
+    "lat": -29.1717652,
+    "version": 1,
+    "id": 4089714021,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.044644,
+    "lat": -29.1717624,
+    "version": 1,
+    "id": 4089714022,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446388,
+    "lat": -29.171758,
+    "version": 1,
+    "id": 4089714023,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446354,
+    "lat": -29.1717523,
+    "version": 1,
+    "id": 4089714024,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446343,
+    "lat": -29.171746,
+    "version": 1,
+    "id": 4089714025,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0446355,
+    "lat": -29.1717397,
+    "version": 1,
+    "id": 4089714026,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.045172,
+    "lat": -29.1717658,
+    "version": 1,
+    "id": 4089714027,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452152,
+    "lat": -29.1717563,
+    "version": 1,
+    "id": 4089714028,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452201,
+    "lat": -29.1717622,
+    "version": 1,
+    "id": 4089714029,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.045176,
+    "lat": -29.1717588,
+    "version": 1,
+    "id": 4089714030,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0451824,
+    "lat": -29.1717535,
+    "version": 1,
+    "id": 4089714031,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0451905,
+    "lat": -29.1717503,
+    "version": 1,
+    "id": 4089714032,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0451994,
+    "lat": -29.1717497,
+    "version": 1,
+    "id": 4089714033,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.045208,
+    "lat": -29.1717518,
+    "version": 1,
+    "id": 4089714034,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452226,
+    "lat": -29.1717692,
+    "version": 1,
+    "id": 4089714035,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452224,
+    "lat": -29.1717765,
+    "version": 1,
+    "id": 4089714036,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452195,
+    "lat": -29.1717834,
+    "version": 1,
+    "id": 4089714037,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452143,
+    "lat": -29.1717891,
+    "version": 1,
+    "id": 4089714038,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0452072,
+    "lat": -29.1717931,
+    "version": 1,
+    "id": 4089714039,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0451991,
+    "lat": -29.1717949,
+    "version": 1,
+    "id": 4089714040,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:55Z",
+    "lon": 28.0451907,
+    "lat": -29.1717943,
+    "version": 1,
+    "id": 4089714041,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.045183,
+    "lat": -29.1717914,
+    "version": 1,
+    "id": 4089714042,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0451767,
+    "lat": -29.1717866,
+    "version": 1,
+    "id": 4089714043,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0451726,
+    "lat": -29.1717802,
+    "version": 1,
+    "id": 4089714044,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.045171,
+    "lat": -29.171773,
+    "version": 1,
+    "id": 4089714045,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472859,
+    "lat": -29.1724347,
+    "version": 1,
+    "id": 4089714046,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473293,
+    "lat": -29.1724292,
+    "version": 1,
+    "id": 4089714047,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473337,
+    "lat": -29.1724355,
+    "version": 1,
+    "id": 4089714048,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472907,
+    "lat": -29.1724284,
+    "version": 1,
+    "id": 4089714049,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472976,
+    "lat": -29.1724238,
+    "version": 1,
+    "id": 4089714050,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473058,
+    "lat": -29.1724215,
+    "version": 1,
+    "id": 4089714051,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473145,
+    "lat": -29.1724217,
+    "version": 1,
+    "id": 4089714052,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473226,
+    "lat": -29.1724243,
+    "version": 1,
+    "id": 4089714053,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473355,
+    "lat": -29.1724428,
+    "version": 1,
+    "id": 4089714054,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473346,
+    "lat": -29.1724501,
+    "version": 1,
+    "id": 4089714055,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473309,
+    "lat": -29.1724568,
+    "version": 1,
+    "id": 4089714056,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.047325,
+    "lat": -29.1724621,
+    "version": 1,
+    "id": 4089714057,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473175,
+    "lat": -29.1724655,
+    "version": 1,
+    "id": 4089714058,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473091,
+    "lat": -29.1724666,
+    "version": 1,
+    "id": 4089714059,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473008,
+    "lat": -29.1724652,
+    "version": 1,
+    "id": 4089714060,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472934,
+    "lat": -29.1724616,
+    "version": 1,
+    "id": 4089714061,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472877,
+    "lat": -29.1724561,
+    "version": 1,
+    "id": 4089714062,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472844,
+    "lat": -29.1724493,
+    "version": 1,
+    "id": 4089714063,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0472838,
+    "lat": -29.1724419,
+    "version": 1,
+    "id": 4089714064,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473438,
+    "lat": -29.1729891,
+    "version": 1,
+    "id": 4089714065,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473965,
+    "lat": -29.1729891,
+    "version": 1,
+    "id": 4089714066,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473988,
+    "lat": -29.1729971,
+    "version": 1,
+    "id": 4089714067,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.047349,
+    "lat": -29.1729821,
+    "version": 1,
+    "id": 4089714068,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473565,
+    "lat": -29.172977,
+    "version": 1,
+    "id": 4089714069,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473654,
+    "lat": -29.1729743,
+    "version": 1,
+    "id": 4089714070,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473749,
+    "lat": -29.1729743,
+    "version": 1,
+    "id": 4089714071,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473839,
+    "lat": -29.172977,
+    "version": 1,
+    "id": 4089714072,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473914,
+    "lat": -29.1729821,
+    "version": 1,
+    "id": 4089714073,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.047398,
+    "lat": -29.1730053,
+    "version": 1,
+    "id": 4089714074,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473942,
+    "lat": -29.1730128,
+    "version": 1,
+    "id": 4089714075,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473878,
+    "lat": -29.1730188,
+    "version": 1,
+    "id": 4089714076,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473795,
+    "lat": -29.1730227,
+    "version": 1,
+    "id": 4089714077,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473702,
+    "lat": -29.1730241,
+    "version": 1,
+    "id": 4089714078,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473609,
+    "lat": -29.1730227,
+    "version": 1,
+    "id": 4089714079,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473526,
+    "lat": -29.1730188,
+    "version": 1,
+    "id": 4089714080,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473462,
+    "lat": -29.1730128,
+    "version": 1,
+    "id": 4089714081,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473424,
+    "lat": -29.1730053,
+    "version": 1,
+    "id": 4089714082,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473416,
+    "lat": -29.1729971,
+    "version": 1,
+    "id": 4089714083,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0468863,
+    "lat": -29.1728754,
+    "version": 1,
+    "id": 4089714084,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469385,
+    "lat": -29.1728716,
+    "version": 1,
+    "id": 4089714085,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469424,
+    "lat": -29.1728797,
+    "version": 1,
+    "id": 4089714086,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0468912,
+    "lat": -29.1728686,
+    "version": 1,
+    "id": 4089714087,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0468982,
+    "lat": -29.1728635,
+    "version": 1,
+    "id": 4089714088,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469066,
+    "lat": -29.1728604,
+    "version": 1,
+    "id": 4089714489,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469157,
+    "lat": -29.1728598,
+    "version": 1,
+    "id": 4089714490,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469246,
+    "lat": -29.1728615,
+    "version": 1,
+    "id": 4089714491,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469324,
+    "lat": -29.1728656,
+    "version": 1,
+    "id": 4089714492,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.046943,
+    "lat": -29.1728885,
+    "version": 1,
+    "id": 4089714493,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469401,
+    "lat": -29.172897,
+    "version": 1,
+    "id": 4089714494,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469342,
+    "lat": -29.1729041,
+    "version": 1,
+    "id": 4089714495,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0469258,
+    "lat": -29.1729091,
+    "version": 1,
+    "id": 4089714496,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.046916,
+    "lat": -29.1729113,
+    "version": 1,
+    "id": 4089714497,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.046906,
+    "lat": -29.1729106,
+    "version": 1,
+    "id": 4089714498,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0468968,
+    "lat": -29.1729069,
+    "version": 1,
+    "id": 4089714499,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0468895,
+    "lat": -29.1729007,
+    "version": 1,
+    "id": 4089714500,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0468851,
+    "lat": -29.1728927,
+    "version": 1,
+    "id": 4089714501,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.046884,
+    "lat": -29.172884,
+    "version": 1,
+    "id": 4089714502,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.047357,
+    "lat": -29.1730604,
+    "version": 1,
+    "id": 4089714503,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0474117,
+    "lat": -29.1730542,
+    "version": 1,
+    "id": 4089714504,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0474179,
+    "lat": -29.1730624,
+    "version": 1,
+    "id": 4089714505,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473635,
+    "lat": -29.1730529,
+    "version": 1,
+    "id": 4089714506,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473723,
+    "lat": -29.1730476,
+    "version": 1,
+    "id": 4089714507,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473825,
+    "lat": -29.1730449,
+    "version": 1,
+    "id": 4089714508,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0473932,
+    "lat": -29.1730452,
+    "version": 1,
+    "id": 4089714509,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0474033,
+    "lat": -29.1730484,
+    "version": 1,
+    "id": 4089714510,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:56Z",
+    "lon": 28.0474206,
+    "lat": -29.173072,
+    "version": 1,
+    "id": 4089714511,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474195,
+    "lat": -29.1730819,
+    "version": 1,
+    "id": 4089714512,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474147,
+    "lat": -29.1730908,
+    "version": 1,
+    "id": 4089714513,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474069,
+    "lat": -29.1730979,
+    "version": 1,
+    "id": 4089714514,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473968,
+    "lat": -29.1731024,
+    "version": 1,
+    "id": 4089714515,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473856,
+    "lat": -29.1731036,
+    "version": 1,
+    "id": 4089714516,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473745,
+    "lat": -29.1731016,
+    "version": 1,
+    "id": 4089714517,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473648,
+    "lat": -29.1730965,
+    "version": 1,
+    "id": 4089714518,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473576,
+    "lat": -29.1730889,
+    "version": 1,
+    "id": 4089714519,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473537,
+    "lat": -29.1730796,
+    "version": 1,
+    "id": 4089714520,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473535,
+    "lat": -29.1730697,
+    "version": 1,
+    "id": 4089714521,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473897,
+    "lat": -29.1732685,
+    "version": 1,
+    "id": 4089714522,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474387,
+    "lat": -29.1732628,
+    "version": 1,
+    "id": 4089714523,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474426,
+    "lat": -29.1732702,
+    "version": 1,
+    "id": 4089714524,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473938,
+    "lat": -29.1732618,
+    "version": 1,
+    "id": 4089714525,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474001,
+    "lat": -29.1732566,
+    "version": 1,
+    "id": 4089714526,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474079,
+    "lat": -29.1732533,
+    "version": 1,
+    "id": 4089714527,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474165,
+    "lat": -29.1732523,
+    "version": 1,
+    "id": 4089714528,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.047425,
+    "lat": -29.1732537,
+    "version": 1,
+    "id": 4089714529,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474327,
+    "lat": -29.1732573,
+    "version": 1,
+    "id": 4089714530,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474435,
+    "lat": -29.1732784,
+    "version": 1,
+    "id": 4089714531,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474412,
+    "lat": -29.1732864,
+    "version": 1,
+    "id": 4089714532,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.047436,
+    "lat": -29.1732932,
+    "version": 1,
+    "id": 4089714533,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474285,
+    "lat": -29.1732982,
+    "version": 1,
+    "id": 4089714534,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474195,
+    "lat": -29.1733006,
+    "version": 1,
+    "id": 4089714535,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474101,
+    "lat": -29.1733003,
+    "version": 1,
+    "id": 4089714536,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0474014,
+    "lat": -29.1732973,
+    "version": 1,
+    "id": 4089714537,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473943,
+    "lat": -29.1732919,
+    "version": 1,
+    "id": 4089714538,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473897,
+    "lat": -29.1732847,
+    "version": 1,
+    "id": 4089714539,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0473881,
+    "lat": -29.1732766,
+    "version": 1,
+    "id": 4089714540,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482107,
+    "lat": -29.1751905,
+    "version": 1,
+    "id": 4089714541,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482708,
+    "lat": -29.1752088,
+    "version": 1,
+    "id": 4089714542,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482509,
+    "lat": -29.1752586,
+    "version": 1,
+    "id": 4089714543,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0481908,
+    "lat": -29.1752403,
+    "version": 1,
+    "id": 4089714544,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0481974,
+    "lat": -29.1752915,
+    "version": 1,
+    "id": 4089714545,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482579,
+    "lat": -29.1752869,
+    "version": 1,
+    "id": 4089714546,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482654,
+    "lat": -29.175296,
+    "version": 1,
+    "id": 4089714547,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482071,
+    "lat": -29.175283,
+    "version": 1,
+    "id": 4089714548,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482196,
+    "lat": -29.1752779,
+    "version": 1,
+    "id": 4089714549,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482333,
+    "lat": -29.1752769,
+    "version": 1,
+    "id": 4089714550,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482466,
+    "lat": -29.17528,
+    "version": 1,
+    "id": 4089714551,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482692,
+    "lat": -29.1753067,
+    "version": 1,
+    "id": 4089714552,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482689,
+    "lat": -29.1753179,
+    "version": 1,
+    "id": 4089714553,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482645,
+    "lat": -29.1753284,
+    "version": 1,
+    "id": 4089714554,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482565,
+    "lat": -29.1753371,
+    "version": 1,
+    "id": 4089714555,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482457,
+    "lat": -29.1753432,
+    "version": 1,
+    "id": 4089714556,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482333,
+    "lat": -29.175346,
+    "version": 1,
+    "id": 4089714557,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482205,
+    "lat": -29.1753451,
+    "version": 1,
+    "id": 4089714558,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0482087,
+    "lat": -29.1753408,
+    "version": 1,
+    "id": 4089714559,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0481991,
+    "lat": -29.1753333,
+    "version": 1,
+    "id": 4089714560,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0481927,
+    "lat": -29.1753236,
+    "version": 1,
+    "id": 4089714561,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0481902,
+    "lat": -29.1753127,
+    "version": 1,
+    "id": 4089714562,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:13:57Z",
+    "lon": 28.0481918,
+    "lat": -29.1753016,
+    "version": 1,
+    "id": 4089714563,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738609,
+    "lat": -28.9702965,
+    "version": 1,
+    "id": 4089718421,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739228,
+    "lat": -28.9702956,
+    "version": 1,
+    "id": 4089718422,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739283,
+    "lat": -28.9703054,
+    "version": 1,
+    "id": 4089718423,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738691,
+    "lat": -28.9702887,
+    "version": 1,
+    "id": 4089718424,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738797,
+    "lat": -28.9702837,
+    "version": 1,
+    "id": 4089718425,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738916,
+    "lat": -28.9702818,
+    "version": 1,
+    "id": 4089718426,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739035,
+    "lat": -28.9702833,
+    "version": 1,
+    "id": 4089718427,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739143,
+    "lat": -28.9702881,
+    "version": 1,
+    "id": 4089718428,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739298,
+    "lat": -28.9703163,
+    "version": 1,
+    "id": 4089718429,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739271,
+    "lat": -28.970327,
+    "version": 1,
+    "id": 4089718430,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739205,
+    "lat": -28.9703364,
+    "version": 1,
+    "id": 4089718431,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7739108,
+    "lat": -28.9703433,
+    "version": 1,
+    "id": 4089718432,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738991,
+    "lat": -28.9703471,
+    "version": 1,
+    "id": 4089718433,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738865,
+    "lat": -28.9703473,
+    "version": 1,
+    "id": 4089718434,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738746,
+    "lat": -28.9703438,
+    "version": 1,
+    "id": 4089718435,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738647,
+    "lat": -28.9703372,
+    "version": 1,
+    "id": 4089718436,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738578,
+    "lat": -28.970328,
+    "version": 1,
+    "id": 4089718437,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738547,
+    "lat": -28.9703174,
+    "version": 1,
+    "id": 4089718438,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7738558,
+    "lat": -28.9703065,
+    "version": 1,
+    "id": 4089718439,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744216,
+    "lat": -28.9701687,
+    "version": 1,
+    "id": 4089718440,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744196,
+    "lat": -28.9701758,
+    "version": 1,
+    "id": 4089718441,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744205,
+    "lat": -28.9701831,
+    "version": 1,
+    "id": 4089718442,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744242,
+    "lat": -28.9701897,
+    "version": 1,
+    "id": 4089718443,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744636,
+    "lat": -28.970189,
+    "version": 1,
+    "id": 4089718444,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744668,
+    "lat": -28.970183,
+    "version": 1,
+    "id": 4089718445,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744677,
+    "lat": -28.9701765,
+    "version": 1,
+    "id": 4089718446,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744662,
+    "lat": -28.97017,
+    "version": 1,
+    "id": 4089718447,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7744625,
+    "lat": -28.9701643,
+    "version": 1,
+    "id": 4089718448,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747034,
+    "lat": -28.9698683,
+    "version": 1,
+    "id": 4089718449,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7746996,
+    "lat": -28.969875,
+    "version": 1,
+    "id": 4089718450,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7746986,
+    "lat": -28.9698824,
+    "version": 1,
+    "id": 4089718451,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747005,
+    "lat": -28.9698897,
+    "version": 1,
+    "id": 4089718452,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747051,
+    "lat": -28.969896,
+    "version": 1,
+    "id": 4089718453,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747467,
+    "lat": -28.9698909,
+    "version": 1,
+    "id": 4089718454,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747491,
+    "lat": -28.9698841,
+    "version": 1,
+    "id": 4089718455,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747488,
+    "lat": -28.969877,
+    "version": 1,
+    "id": 4089718456,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.774746,
+    "lat": -28.9698703,
+    "version": 1,
+    "id": 4089718457,
+    "user": "eireidium"
+  },
+  {
+    "name": "node",
+    "type": "create",
+    "timestamp": "2016-04-01T10:17:26Z",
+    "lon": 27.7747409,
+    "lat": -28.9698647,
+    "version": 1,
+    "id": 4089718458,
+    "user": "eireidium"
+  }
+]

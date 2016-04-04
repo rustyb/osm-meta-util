@@ -10,7 +10,7 @@ import numpy as np
 import datetime
 
 from sqlalchemy import create_engine
-engine = create_engine("sqlite:///db/leaderboard2.db", echo=True, convert_unicode=True)
+engine = create_engine("sqlite:///db/leaderboard4.db", echo=True, convert_unicode=True)
 
 
 #pd.options.display.mpl_style = 'default' # set styles to nice colours for graphs

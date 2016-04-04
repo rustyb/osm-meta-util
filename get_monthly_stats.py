@@ -17,7 +17,7 @@ engine = create_engine("sqlite:///db/leaderboard2.db", echo=True, convert_unicod
 
 # read files in data folder for existing files:
 """def read_json_files(place="lesotho"):
-    wd0 = 'data/'
+    wd0 = 'data/data/'
     if place == 'lesotho':
         wd = wd0 + 'lesotho1/'
     else:
@@ -67,10 +67,13 @@ for f in dfiles_d:
     ap_us['total_edits'] = ap_us.sum(axis=1)
     leaderbord = pd.concat([leaderbord.reset_index(), ap_us.reset_index()]).groupby('user').sum()
 
+les_d = []
+for f in dfiles_d1:
+    les_d.append(pd.read_json(f))
 
 
 les_hourly = []
-for f in dfiles_h:
+for f in dfiles_h1:
     les_hourly.append(pd.read_json(f))
 
 lesh = pd.concat(les_hourly)"""

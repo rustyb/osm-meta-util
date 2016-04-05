@@ -25,8 +25,7 @@ total_rank = ap_us.sort('total_edits', ascending=False).reset_index()
 final = pd.merge(total_rank, act2, how='left', on=['user'])
 
 
-min_ts = 'test'#str(les_apps.index.min())
-max_ts = 'test'#str(les_apps.index.max())
+max_ts = pd.read_sql("SELECT max(timestamp) as t_max from changesets", engine).t_max.values[0]#'test'#str(les_apps.index.max())
 
 final.index = np.arange(1, len(final)+1)
 table = pd.DataFrame(final).to_html()
@@ -102,8 +101,7 @@ html_string = '''
                     <span class="top minor">'''+ '{:,}'.format(ap_us['modify'].sum().astype(int)) +'''</span>
                     <span class="top-caption minor">modified</span>
                     <span class="top minor ">'''+ '{:,}'.format(ap_us['delete'].sum().astype(int)) +'''</span>
-                    <span class="top-caption minor">created</span>
-                    <br> <small>First Edit Counted: '''+ min_ts +'''</small>
+                    <span class="top-caption minor">deleted</span>
                     <br> <small>Latest Edit Counted: '''+ max_ts +'''</small>
                 </div>
                 '''+ table + '''            

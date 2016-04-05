@@ -68,7 +68,7 @@ from datetime import datetime
 import os, sys, json
 
 from sqlalchemy import create_engine
-engine = create_engine("sqlite:///db/leaderboard2.db", echo=False, convert_unicode=True)
+engine = create_engine("sqlite:///db/leaderboard4.db", echo=False, convert_unicode=True)
 
 from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()

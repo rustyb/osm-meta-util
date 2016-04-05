@@ -7,10 +7,7 @@ import numpy as np
 import datetime
 
 from sqlalchemy import create_engine
-engine = create_engine("sqlite:///db/leaderboard2.db", echo=True, convert_unicode=True)
-
-
-
+engine = create_engine("sqlite:///db/leaderboard4.db", echo=False, convert_unicode=True)
 
 xx = pd.read_sql("SELECT user, type, count(*) as edit_count from changesets where timestamp >= '2016-02-20 00:00:00' group by user, type order by user", engine)
 edits = xx.groupby(['type', 'user']).sum().unstack().T
@@ -18,15 +15,21 @@ ap_us = edits.reset_index().set_index('user')[['create', 'delete', 'modify']].fi
 
 ap_us['total_edits'] = ap_us.sum(axis=1) 
 
+act = pd.read_sql("select user, max(timestamp) as last_act from changesets group by user order by user", engine, parse_dates=['last_act'])
+act['days_since'] = (pd.datetime.now() - act.last_act).dt.days
+act2 = act[['user', 'days_since']]
 
+act2 = act2.rename(columns={ 'days_since' : 'days since last edit'})
 
 total_rank = ap_us.sort('total_edits', ascending=False).reset_index()
+final = pd.merge(total_rank, act2, how='left', on=['user'])
+
 
 min_ts = 'test'#str(les_apps.index.min())
 max_ts = 'test'#str(les_apps.index.max())
 
-total_rank.index = np.arange(1, len(total_rank)+1)
-table = pd.DataFrame(total_rank).to_html()
+final.index = np.arange(1, len(final)+1)
+table = pd.DataFrame(final).to_html()
 table = table.replace('border="1"', '')
 
 table = table.replace('<table  class="dataframe">', '<table class="dataframe" align="center">')

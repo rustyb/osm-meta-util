@@ -201,6 +201,6 @@ html_string = '''
     </body>
     </html>
 '''
-f = open('index.html','w')
+f = open('leaderboard.html','w')
 f.write(html_string)
 f.close()
